@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Tra cứu Địa chỉ Hà Nội</title>
-  <meta name="description" content="Tra cứu địa chỉ hành chính Hà Nội bằng OpenStreetMap API.">
+  <title>Trích xuất Địa chỉ Hà Nội</title>
+  <meta name="description" content="Trích xuất địa chỉ hành chính Hà Nội từ văn bản tự do — hành chính 2 cấp mới (01/07/2025).">
   <meta name="theme-color" content="#0b0b13">
   <style>
     *,
@@ -752,7 +752,7 @@
       </div>
       <div class="title-area">
         <h1>Hanoi Address</h1>
-        <p class="subtitle">Tra cứu địa chỉ hành chính Hà Nội</p>
+        <p class="subtitle">Trích xuất địa chỉ từ văn bản — HC 2 cấp mới</p>
       </div>
     </header>
 
@@ -764,7 +764,7 @@
             <circle cx="11" cy="11" r="8"></circle>
             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
           </svg>
-          <input type="text" id="searchInput" class="search-input" placeholder="Nhập địa chỉ, tòa nhà, ngõ..."
+          <input type="text" id="searchInput" class="search-input" placeholder="Paste tin nhắn, địa chỉ lộn xộn..."
             autocomplete="off" />
           <!-- [FIX #8] Clear button -->
           <button type="button" class="clear-btn" id="clearBtn" onclick="clearInput()" aria-label="Xóa">
@@ -790,12 +790,12 @@
 
     <!-- Examples — hidden when result is showing -->
     <div class="examples-container visible" id="examplesBlock">
-      <div class="example-label">Có thể bạn đang tìm</div>
+      <div class="example-label">Ví dụ — paste text bất kỳ</div>
       <div class="chips-grid" id="examplesContainer">
-        <button class="chip" onclick="applyExample('S201 Vinhomes Smart City')">🏢 S201 Smart City</button>
-        <button class="chip" onclick="applyExample('123 Nguyễn Ngọc Nại')">📍 123 Nguyễn Ngọc Nại</button>
-        <button class="chip" onclick="applyExample('66 Vương Thừa Vũ')">🛵 66 Vương Thừa Vũ</button>
-        <button class="chip" onclick="applyExample('Park 9 Times City')">🏛️ Park 9 Times City</button>
+        <button class="chip" onclick="applyExample('Ship c 35 hàng vôi tháp BIDV đt 0912345678')">📦 Ship 35 hàng vôi</button>
+        <button class="chip" onclick="applyExample('mai a qua 123 nguyễn ngọc nại nhé')">💬 123 nguyễn ngọc nại</button>
+        <button class="chip" onclick="applyExample('Giao hang 15 pho hue ha noi')">🛵 15 phố huế</button>
+        <button class="chip" onclick="applyExample('số 8 Lý Thường Kiệt, HK')">📍 8 Lý Thường Kiệt</button>
       </div>
     </div>
 
@@ -864,15 +864,279 @@
   <script>
     window.currentCopyAddress = "";
 
-    // Từ điển chuẩn 500 Phường/Xã Hà Nội
-    const rawHanoiWards = ["Phúc Xá", "Trúc Bạch", "Vĩnh Phúc", "Cống Vị", "Liễu Giai", "Quán Thánh", "Ngọc Hà", "Điện Biên", "Đội Cấn", "Ngọc Khánh", "Kim Mã", "Giảng Võ", "Thành Công", "Phúc Tân", "Đồng Xuân", "Hàng Mã", "Hàng Buồm", "Hàng Đào", "Hàng Bồ", "Cửa Đông", "Lý Thái Tổ", "Hàng Bạc", "Hàng Gai", "Chương Dương", "Hàng Trống", "Cửa Nam", "Hàng Bông", "Tràng Tiền", "Trần Hưng Đạo", "Phan Chu Trinh", "Hàng Bài", "Phú Thượng", "Nhật Tân", "Tứ Liên", "Quảng An", "Xuân La", "Yên Phụ", "Bưởi", "Thụy Khuê", "Thượng Thanh", "Ngọc Thụy", "Giang Biên", "Đức Giang", "Việt Hưng", "Gia Thụy", "Ngọc Lâm", "Phúc Lợi", "Bồ Đề", "Long Biên", "Thạch Bàn", "Phúc Đồng", "Cự Khối", "Nghĩa Đô", "Nghĩa Tân", "Mai Dịch", "Dịch Vọng", "Dịch Vọng Hậu", "Quan Hoa", "Yên Hoà", "Trung Hoà", "Cát Linh", "Văn Miếu - Quốc Tử Giám", "Láng Thượng", "Ô Chợ Dừa", "Văn Chương", "Hàng Bột", "Láng Hạ", "Khâm Thiên", "Thổ Quan", "Nam Đồng", "Quang Trung", "Trung Liệt", "Phương Liên - Trung Tự", "Kim Liên", "Phương Mai", "Thịnh Quang", "Khương Thượng", "Nguyễn Du", "Bạch Đằng", "Phạm Đình Hổ", "Lê Đại Hành", "Đồng Nhân", "Phố Huế", "Thanh Lương", "Thanh Nhàn", "Bách Khoa", "Đồng Tâm", "Vĩnh Tuy", "Quỳnh Mai", "Bạch Mai", "Minh Khai", "Trương Định", "Thanh Trì", "Vĩnh Hưng", "Định Công", "Mai Động", "Tương Mai", "Đại Kim", "Tân Mai", "Hoàng Văn Thụ", "Giáp Bát", "Lĩnh Nam", "Thịnh Liệt", "Trần Phú", "Hoàng Liệt", "Yên Sở", "Nhân Chính", "Thượng Đình", "Khương Trung", "Khương Mai", "Thanh Xuân Trung", "Phương Liệt", "Khương Đình", "Thanh Xuân Bắc", "Hạ Đình", "Sóc Sơn", "Bắc Sơn", "Minh Trí", "Hồng Kỳ", "Nam Sơn", "Trung Giã", "Tân Hưng", "Minh Phú", "Phù Linh", "Bắc Phú", "Tân Minh", "Quang Tiến", "Hiền Ninh", "Tân Dân", "Tiên Dược", "Việt Long", "Xuân Giang", "Mai Đình", "Đức Hoà", "Thanh Xuân", "Đông Xuân", "Kim Lũ", "Phú Cường", "Phú Minh", "Phù Lỗ", "Xuân Thu", "Đông Anh", "Xuân Nộn", "Thuỵ Lâm", "Bắc Hồng", "Nguyên Khê", "Nam Hồng", "Tiên Dương", "Vân Hà", "Uy Nỗ", "Vân Nội", "Liên Hà", "Việt Hùng", "Kim Nỗ", "Kim Chung", "Dục Tú", "Đại Mạch", "Vĩnh Ngọc", "Cổ Loa", "Hải Bối", "Xuân Canh", "Võng La", "Tàm Xá", "Mai Lâm", "Đông Hội", "Yên Viên", "Yên Thường", "Ninh Hiệp", "Thiên Đức", "Phù Đổng", "Lệ Chi", "Cổ Bi", "Đặng Xá", "Phú Sơn", "Trâu Quỳ", "Dương Quang", "Dương Xá", "Đa Tốn", "Kiêu Kỵ", "Bát Tràng", "Kim Đức", "Cầu Diễn", "Xuân Phương", "Phương Canh", "Mỹ Đình 1", "Mỹ Đình 2", "Tây Mỗ", "Mễ Trì", "Phú Đô", "Đại Mỗ", "Trung Văn", "Văn Điển", "Tân Triều", "Thanh Liệt", "Tả Thanh Oai", "Hữu Hoà", "Tam Hiệp", "Tứ Hiệp", "Yên Mỹ", "Vĩnh Quỳnh", "Ngũ Hiệp", "Duyên Hà", "Ngọc Hồi", "Vạn Phúc", "Đại áng", "Liên Ninh", "Đông Mỹ", "Thượng Cát", "Liên Mạc", "Đông Ngạc", "Đức Thắng", "Thụy Phương", "Tây Tựu", "Xuân Đỉnh", "Xuân Tảo", "Cổ Nhuế 1", "Cổ Nhuế 2", "Phú Diễn", "Phúc Diễn", "Chi Đông", "Đại Thịnh", "Kim Hoa", "Thạch Đà", "Tiến Thắng", "Tự Lập", "Quang Minh", "Thanh Lâm", "Tam Đồng", "Chu Phan", "Tiến Thịnh", "Mê Linh", "Văn Khê", "Hoàng Kim", "Tiền Phong", "Tráng Việt", "Mộ Lao", "Văn Quán", "La Khê", "Phú La", "Phúc La", "Hà Cầu", "Yên Nghĩa", "Kiến Hưng", "Phú Lãm", "Phú Lương", "Dương Nội", "Đồng Mai", "Biên Giang", "Ngô Quyền", "Phú Thịnh", "Sơn Lộc", "Xuân Khanh", "Đường Lâm", "Viên Sơn", "Xuân Sơn", "Trung Hưng", "Thanh Mỹ", "Trung Sơn Trầm", "Kim Sơn", "Sơn Đông", "Cổ Đông", "Tây Đằng", "Cổ Đô", "Vạn Thắng", "Phong Vân", "Phú Đông", "Phú Hồng", "Phú Châu", "Thái Hòa", "Đồng Thái", "Minh Châu", "Vật Lại", "Chu Minh", "Tòng Bạt", "Cẩm Lĩnh", "Sơn Đà", "Đông Quang", "Tiên Phong", "Thụy An", "Cam Thượng", "Thuần Mỹ", "Tản Lĩnh", "Ba Trại", "Minh Quang", "Ba Vì", "Vân Hòa", "Yên Bài", "Khánh Thượng", "Phúc Thọ", "Vân Phúc", "Nam Hà", "Xuân Đình", "Sen Phương", "Võng Xuyên", "Tích Lộc", "Long Thượng", "Hát Môn", "Thanh Đa", "Trạch Mỹ Lộc", "Phúc Hòa", "Ngọc Tảo", "Phụng Thượng", "Tam Thuấn", "Hiệp Thuận", "Liên Hiệp", "Phùng", "Trung Châu", "Thọ An", "Thọ Xuân", "Hồng Hà", "Liên Hồng", "Hạ Mỗ", "Liên Trung", "Phương Đình", "Thượng Mỗ", "Tân Hội", "Tân Lập", "Đan Phượng", "Đồng Tháp", "Song Phượng", "Trạm Trôi", "Đức Thượng", "Dương Liễu", "Di Trạch", "Cát Quế", "Sơn Đồng", "Vân Canh", "Đắc Sở", "Lại Yên", "Tiền Yên", "Song Phương", "An Khánh", "An Thượng", "Vân Côn", "La Phù", "Đông La", "Quốc Oai", "Sài Sơn", "Phượng Sơn", "Ngọc Liệp", "Ngọc Mỹ", "Thạch Thán", "Đồng Quang", "Phú Cát", "Tuyết Nghĩa", "Liệp Nghĩa", "Cộng Hòa", "Hưng Đạo", "Phú Mãn", "Cấn Hữu", "Hòa Thạch", "Đông Yên", "Yên Trung", "Yên Bình", "Tiến Xuân", "Liên Quan", "Đại Đồng", "Cẩm Yên", "Lại Thượng", "Phú Kim", "Hương Ngải", "Lam Sơn", "Kim Quan", "Bình Yên", "Thạch Hoà", "Cần Kiệm", "Phùng Xá", "Tân Xã", "Thạch Xá", "Hạ Bằng", "Đồng Trúc", "Chúc Sơn", "Xuân Mai", "Phụng Châu", "Tiên Phương", "Đông Sơn", "Đông Phương Yên", "Phú Nghĩa", "Trường Yên", "Ngọc Hòa", "Thủy Xuân Tiên", "Thanh Bình", "Trung Hòa", "Đại Yên", "Thụy Hương", "Tốt Động", "Lam Điền", "Tân Tiến", "Nam Phương Tiến", "Hợp Đồng", "Hoàng Diệu", "Hữu Văn", "Quảng Bị", "Mỹ Lương", "Thượng Vực", "Hồng Phú", "Văn Võ", "Đồng Lạc", "Hòa Phú", "Kim Bài", "Cự Khê", "Bích Hòa", "Mỹ Hưng", "Cao Viên", "Bình Minh", "Tam Hưng", "Thanh Cao", "Thanh Thùy", "Thanh Mai", "Thanh Văn", "Đỗ Động", "Kim An", "Kim Thư", "Phương Trung", "Tân Ước", "Dân Hòa", "Liên Châu", "Cao Xuân Dương", "Hồng Dương", "Thường Tín", "Ninh Sở", "Nhị Khê", "Duyên Thái", "Khánh Hà", "Hòa Bình", "Văn Bình", "Hiền Giang", "Hồng Vân", "Vân Tảo", "Liên Phương", "Văn Phú", "Tự Nhiên", "Hà Hồi", "Nguyễn Trãi", "Quất Động", "Lê Lợi", "Thắng Lợi", "Dũng Tiến", "Nghiêm Xuyên", "Tô Hiệu", "Văn Tự", "Vạn Nhất", "Minh Cường", "Phú Xuyên", "Hồng Minh", "Phượng Dực", "Nam Tiến", "Văn Hoàng", "Phú Túc", "Hồng Thái", "Hoàng Long", "Nam Phong", "Quang Hà", "Chuyên Mỹ", "Khai Thái", "Phúc Tiến", "Vân Từ", "Tri Thủy", "Đại Xuyên", "Phú Yên", "Bạch Hạ", "Quang Lãng", "Châu Can", "Minh Tân", "Vân Đình", "Hoa Viên", "Quảng Phú Cầu", "Trường Thịnh", "Liên Bạt", "Cao Sơn Tiến", "Phương Tú", "Trung Tú", "Đồng Tân", "Tảo Dương Văn", "Minh Đức", "Trầm Lộng", "Kim Đường", "Đại Hùng", "Đông Lỗ", "Phù Lưu", "Đại Cường", "Bình Lưu Quang", "Đại Nghĩa", "Thượng Lâm", "Tuy Lai", "Phúc Lâm", "Mỹ Xuyên", "An Mỹ", "Hồng Sơn", "Lê Thanh", "Xuy Xá", "Phù Lưu Tế", "Đại Hưng", "Vạn Tín", "Hương Sơn", "Hùng Tiến", "An Tiến", "Hợp Tiến", "Hợp Thanh", "An Phú"];
+    // ==========================================
+    // DATABASE — loaded at startup
+    // ==========================================
+    let streetDB = [];        // Array of street names
+    let districtDB = {};      // { districtName: { pre, wards, streets } }
+    let wardMapping = {};     // { oldWardName: [{ newWard, newType, isPartial }] }
+    let streetIndex = [];     // Preprocessed for fuzzy matching: [{ original, normalized, words }]
 
-    const hanoiWardsDb = rawHanoiWards.map(w => ({
-      display: w,
-      searchKey: normalizeStr(w)
-    })).sort((a, b) => b.searchKey.length - a.searchKey.length);
+    async function loadDatabases() {
+      try {
+        const [streetsRes, districtsRes, mappingRes] = await Promise.all([
+          fetch('data/hanoi_streets.json'),
+          fetch('data/hanoi_districts.json'),
+          fetch('data/hanoi_ward_mapping.json')
+        ]);
+        streetDB = await streetsRes.json();
+        districtDB = await districtsRes.json();
+        wardMapping = await mappingRes.json();
 
-    // Bounding Box Hà Nội (lat/lon) để validate kết quả
+        // Build search index: sort by length desc (greedy match longest first)
+        streetIndex = streetDB.map(s => ({
+          original: s,
+          normalized: removeDiacritics(s.toLowerCase()),
+          words: removeDiacritics(s.toLowerCase()).split(/\s+/)
+        })).sort((a, b) => b.normalized.length - a.normalized.length);
+
+        console.log(`[DB] Loaded: ${streetDB.length} streets, ${Object.keys(districtDB).length} districts, ${Object.keys(wardMapping).length} old wards`);
+      } catch (err) {
+        console.error('[DB] Failed to load databases:', err);
+      }
+    }
+
+    // ==========================================
+    // VIETNAMESE DIACRITICS HELPERS
+    // ==========================================
+    function removeDiacritics(str) {
+      if (!str) return "";
+      return str
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/đ/g, "d")
+        .replace(/Đ/g, "D");
+    }
+
+    function normalizeForSearch(str) {
+      if (!str) return "";
+      return removeDiacritics(str.toLowerCase()).replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ').trim();
+    }
+
+    function normalizeStr(str) {
+      if (!str) return "";
+      return str.toLowerCase()
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+        .replace(/đ/g, "d")
+        .replace(/[^a-z0-9]/g, "");
+    }
+
+    // ==========================================
+    // ADDRESS EXTRACTION ENGINE
+    // ==========================================
+
+    // Step 1: Light clean — only remove phone numbers and emoji
+    // NOTE: We do NOT remove noise words here because 'hang' conflicts with 'Hàng *' street names
+    function lightClean(raw) {
+      let s = raw;
+      // Remove phone numbers
+      s = s.replace(/\b0[0-9]{9,10}\b/g, ' ');
+      s = s.replace(/\b\d{4}[\s.-]?\d{3}[\s.-]?\d{3}\b/g, ' ');
+      // Remove emoji
+      s = s.replace(/[\u{1F600}-\u{1F64F}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/gu, ' ');
+      // Collapse whitespace
+      s = s.replace(/\s+/g, ' ').trim();
+      return s;
+    }
+
+    // Remove noise words from text (used AFTER street detection to clean non-street parts)
+    function removeNoiseWords(text) {
+      // These words are safe to remove — 'hang' is NOT included because it conflicts with 'Hàng *' streets
+      return text.replace(/\b(ship|giao|giao hang|cod|đt|dt|sdt|tel|zalo|ok|nhe|nhé|nha|nhá|anh|chị|chi|em|bạn|ban|ạ|ah|cho toi|đến|den|tới|qua|mai|gấp|gap|thanks|tks|cảm ơn|cam on|thap|tháp|gần|gan|cạnh|canh|đối diện|doi dien)\b/gi, ' ')
+        .replace(/\bc\b/gi, ' ')    // 'c' as standalone abbreviation (e.g. 'ship c')
+        .replace(/\ba\b/gi, ' ')    // 'a' as standalone
+        .replace(/\s+/g, ' ').trim();
+    }
+
+    // Step 2: Detect street name using fuzzy matching
+    function detectStreetName(cleanedInput) {
+      const inputNorm = normalizeForSearch(cleanedInput);
+      
+      let bestMatch = null;
+      let bestScore = 0;
+      let bestPosition = -1;
+
+      for (const entry of streetIndex) {
+        const streetNorm = entry.normalized;
+        // Try exact substring match (case/diacritics insensitive)
+        const pos = inputNorm.indexOf(streetNorm);
+        if (pos !== -1) {
+          // Check word boundary: make sure we're not matching partial words
+          const before = pos > 0 ? inputNorm[pos - 1] : ' ';
+          const after = pos + streetNorm.length < inputNorm.length ? inputNorm[pos + streetNorm.length] : ' ';
+          const isWordBound = (before === ' ' || /\d/.test(before)) && (after === ' ' || after === ',' || /\d/.test(after));
+          
+          if (isWordBound && streetNorm.length > bestScore) {
+            bestMatch = entry;
+            bestScore = streetNorm.length;
+            bestPosition = pos;
+          }
+        }
+      }
+
+      if (bestMatch) {
+        return {
+          streetName: bestMatch.original,
+          matchScore: 1.0,
+          position: bestPosition,
+          matchLength: bestMatch.normalized.length
+        };
+      }
+
+      // Fuzzy fallback: try matching with spaces removed
+      const inputCompact = inputNorm.replace(/\s/g, '');
+      for (const entry of streetIndex) {
+        if (entry.normalized.length < 4) continue; // Skip very short names
+        const streetCompact = entry.normalized.replace(/\s/g, '');
+        const pos = inputCompact.indexOf(streetCompact);
+        if (pos !== -1 && streetCompact.length > bestScore) {
+          bestMatch = entry;
+          bestScore = streetCompact.length;
+          bestPosition = pos;
+        }
+      }
+
+      if (bestMatch && bestScore >= 4) {
+        return {
+          streetName: bestMatch.original,
+          matchScore: 0.85,
+          position: bestPosition,
+          matchLength: bestMatch.normalized.length
+        };
+      }
+
+      return null;
+    }
+
+    // Step 3: Extract house number near the street name
+    function extractHouseNumberSmart(cleanedInput, streetMatch) {
+      if (!streetMatch) {
+        // Fallback: find any number at the start or "so X" pattern
+        const m = cleanedInput.match(/(?:^|\bso\s*|\bsố\s*)(\d+[a-zA-Z]?(?:[\/-]\d+)?)/i);
+        return m ? m[1].toUpperCase() : "";
+      }
+
+      const inputNorm = normalizeForSearch(cleanedInput);
+      const streetNorm = streetMatch.streetName ? normalizeForSearch(streetMatch.streetName) : "";
+      const streetPos = inputNorm.indexOf(streetNorm);
+      
+      // Look for number BEFORE the street name
+      if (streetPos > 0) {
+        const beforeText = inputNorm.substring(0, streetPos);
+        const numMatch = beforeText.match(/(\d+[a-zA-Z]?(?:[\/-]\d+)?)\s*$/i);
+        if (numMatch) return numMatch[1].toUpperCase();
+      }
+
+      // Look for number AFTER the street name
+      const afterStart = streetPos + streetNorm.length;
+      if (afterStart < inputNorm.length) {
+        const afterText = inputNorm.substring(afterStart);
+        const numMatch = afterText.match(/^\s*(\d+[a-zA-Z]?(?:[\/-]\d+)?)/i);
+        if (numMatch) return numMatch[1].toUpperCase();
+      }
+
+      // Look for "so X" or "số X" anywhere
+      const soMatch = cleanedInput.match(/(?:so\s*|số\s*)(\d+[a-zA-Z]?)/i);
+      if (soMatch) return soMatch[1].toUpperCase();
+
+      // Look for standalone number at start of input
+      const startMatch = cleanedInput.match(/^\s*(\d+[a-zA-Z]?(?:[\/-]\d+)?)\s/);
+      if (startMatch) return startMatch[1].toUpperCase();
+
+      return "";
+    }
+
+    // Step 4: Find which district a street belongs to
+    function findDistrictForStreet(streetName) {
+      const results = [];
+      for (const [distName, info] of Object.entries(districtDB)) {
+        if (info.streets && info.streets.includes(streetName)) {
+          results.push({ district: distName, prefix: info.pre });
+        }
+      }
+      return results;
+    }
+
+    // Step 6: Map old ward name to new ward name
+    function mapToNewWard(oldWardName) {
+      if (!oldWardName || !wardMapping) return null;
+
+      // Try exact match
+      if (wardMapping[oldWardName]) {
+        return wardMapping[oldWardName];
+      }
+
+      // Try case-insensitive match
+      const cleanName = oldWardName.replace(/^(phường|xã|thị trấn)\s*/i, '').trim();
+      if (wardMapping[cleanName]) {
+        return wardMapping[cleanName];
+      }
+
+      // Try fuzzy match by normalized string
+      const normInput = normalizeStr(cleanName);
+      for (const [key, val] of Object.entries(wardMapping)) {
+        if (normalizeStr(key) === normInput) {
+          return val;
+        }
+      }
+
+      return null;
+    }
+
+    // Format output with new ward
+    function formatNewAddress(houseNumber, streetName, newWardInfo) {
+      let prefix = '';
+      if (houseNumber && streetName) {
+        prefix = `${houseNumber} ${streetName}`;
+      } else if (streetName) {
+        prefix = streetName;
+      } else if (houseNumber) {
+        prefix = houseNumber;
+      }
+
+      if (newWardInfo && newWardInfo.length > 0) {
+        // Pick the first non-partial match, or just the first one
+        const best = newWardInfo.find(w => !w.isPartial) || newWardInfo[0];
+        const wardType = best.newType === 'Xã' ? 'xã' : 'phường';
+        if (prefix) {
+          return `${prefix}, ${wardType} ${best.newWard}, thành phố Hà Nội`;
+        }
+        return `${wardType} ${best.newWard}, thành phố Hà Nội`;
+      }
+
+      if (prefix) {
+        return `${prefix}, thành phố Hà Nội`;
+      }
+      return 'thành phố Hà Nội';
+    }
+
+    function appendDistrictLevelFallback(results, districts, houseNumber, streetName, seenSet) {
+      if (districts && districts.length > 0) {
+        for (const d of districts) {
+          const pre = d.prefix === 'Huyện' ? 'huyện' : (d.prefix === 'Thị xã' ? 'thị xã' : 'quận');
+          let addr = houseNumber
+            ? `${houseNumber} ${streetName}, ${pre} ${d.district}, thành phố Hà Nội`
+            : `${streetName}, ${pre} ${d.district}, thành phố Hà Nội`;
+          let hash = dedupKey(addr);
+          if (!seenSet.has(hash)) {
+            seenSet.add(hash);
+            results.push(addr);
+          }
+        }
+      } else {
+        const addr = formatNewAddress(houseNumber, streetName, null);
+        let hash = dedupKey(addr);
+        if (!seenSet.has(hash)) {
+          seenSet.add(hash);
+          results.push(addr);
+        }
+      }
+      return results;
+    }
+
+    // ==========================================
+    // MAIN SEARCH HANDLER (HYBRID)
+    // ==========================================
     const HANOI_BOUNDS = { latMin: 20.56, latMax: 21.39, lonMin: 105.28, lonMax: 106.05 };
 
     const els = {
@@ -892,7 +1156,6 @@
       chipsContainer: document.getElementById('examplesContainer')
     };
 
-    // [FIX #8] Show/hide clear button on input
     els.input.addEventListener('input', function () {
       els.btnClear.classList.toggle('visible', this.value.length > 0);
     });
@@ -905,12 +1168,25 @@
       els.examples.classList.add('visible');
     }
 
-    function normalizeStr(str) {
-      if (!str) return "";
-      return str.toLowerCase()
-        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-        .replace(/đ/g, "d")
-        .replace(/[^a-z0-9]/g, "");
+    function resetViews() {
+      els.resView.classList.remove('show');
+      els.errView.classList.remove('show');
+      els.examples.classList.remove('visible');
+      els.loader.classList.remove('show-flex');
+      if (els.suggestionsView) els.suggestionsView.style.display = 'none';
+      els.btnCopy.classList.remove('success');
+      els.txtCopy.innerText = "Sao chép địa chỉ";
+      els.btnCopy.querySelector('svg').innerHTML = '<rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>';
+    }
+
+    function setLoading(on) {
+      els.btnSubmit.classList.toggle('loading', on);
+      els.loader.classList.toggle('show-flex', on);
+    }
+
+    function isInHanoi(lat, lon) {
+      return lat >= HANOI_BOUNDS.latMin && lat <= HANOI_BOUNDS.latMax &&
+        lon >= HANOI_BOUNDS.lonMin && lon <= HANOI_BOUNDS.lonMax;
     }
 
     function dedupKey(addr) {
@@ -920,245 +1196,243 @@
       return s.replace(/[^a-z0-9]/g, "");
     }
 
-    function cleanAdmin(name) {
-      if (!name) return "";
-      return name.replace(/^(phường|quận|xã|thị trấn|huyện|p\.|q\.)\s*/i, '')
-        .replace(/\s*(ward|district|commune|town|city)$/i, '')
-        .trim();
-    }
-
-    function matchWard(dirtyInput) {
-      if (!dirtyInput) return "";
-      const searchInput = normalizeStr(dirtyInput);
-      const match = hanoiWardsDb.find(w => searchInput.includes(w.searchKey));
-      if (match) return match.display;
-      return cleanAdmin(dirtyInput);
-    }
-
-    function formatAddressFromOsm(addressObj) {
-      const oldWard = addressObj.suburb || addressObj.quarter || addressObj.village || "";
-      return { ward: matchWard(oldWard) };
-    }
-
-    function toTitleCase(str) {
-      if (!str) return "";
-      return str.split(' ').map(word => {
-        if (!word) return '';
-        return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
-      }).join(' ');
-    }
-
-    // [FIX #1] Kiểm tra kết quả có thuộc Hà Nội không
-    function isInHanoi(lat, lon) {
-      return lat >= HANOI_BOUNDS.latMin && lat <= HANOI_BOUNDS.latMax &&
-        lon >= HANOI_BOUNDS.lonMin && lon <= HANOI_BOUNDS.lonMax;
-    }
-
-    function isInHanoiByProps(props) {
-      if (props.city && normalizeStr(props.city).includes('hanoi')) return true;
-      if (props.state && normalizeStr(props.state).includes('hanoi')) return true;
-      return false;
-    }
-
-    // [FIX #2] Reset tất cả views triệt để
-    function resetViews() {
-      els.resView.classList.remove('show');
-      els.errView.classList.remove('show');
-      els.examples.classList.remove('visible');
-      els.loader.classList.remove('show-flex');
-      if (els.suggestionsView) els.suggestionsView.style.display = 'none';
-
-      els.btnCopy.classList.remove('success');
-      els.txtCopy.innerText = "Sao chép địa chỉ";
-      els.btnCopy.querySelector('svg').innerHTML = '<rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>';
-    }
-
-    // [FIX #6] Toggle loading state on button
-    function setLoading(on) {
-      els.btnSubmit.classList.toggle('loading', on);
-      if (on) {
-        els.loader.classList.add('show-flex');
-      } else {
-        els.loader.classList.remove('show-flex');
-      }
-    }
-
     async function handleSearch(e) {
       if (e) e.preventDefault();
-      const query = els.input.value.trim();
-      if (!query) return;
+      const rawInput = els.input.value.trim();
+      if (!rawInput) return;
 
-      // Show clear button
       els.btnClear.classList.add('visible');
-
-      let searchQ = query;
-      if (!searchQ.toLowerCase().includes('hà nội') && !searchQ.toLowerCase().includes('hanoi')) {
-        searchQ += ' Hà Nội';
-      }
-
-      const encodedQuery = encodeURIComponent(searchQ);
       resetViews();
       setLoading(true);
 
       try {
-        // [FIX] Khai báo email để tuân thủ Policy của Nominatim OSM, tránh bị HTTP 403 Block
-        const response = await fetch(`https://nominatim.openstreetmap.org/search?q=${encodedQuery}&format=json&addressdetails=1&limit=3&accept-language=vi&email=hanoilookup@gmail.com`, {
-          headers: { 'Accept-Language': 'vi-VN,vi;q=0.9' }
-        });
-        
-        if (!response.ok) throw new Error(`OSM Nominatim API Error: ${response.status}`);
-        
+        // === STEP 1: Light clean — phone numbers and emoji only ===
+        const cleaned = lightClean(rawInput);
+        console.log('[1] Light cleaned:', cleaned);
+
+        // === STEP 2: Detect street name from local DB (on lightly cleaned input) ===
+        const streetMatch = detectStreetName(cleaned);
+        console.log('[2] Street match:', streetMatch);
+
+        // === STEP 3: Extract house number ===
+        const houseNumber = extractHouseNumberSmart(cleaned, streetMatch);
+        console.log('[3] House number:', houseNumber);
+
+        if (streetMatch && streetMatch.matchScore >= 0.8) {
+          // === LOCAL MATCH FOUND — use Hybrid approach ===
+          const streetName = streetMatch.streetName;
+          const districts = findDistrictForStreet(streetName);
+          console.log('[4] Districts:', districts);
+
+          // === STEP 5: Send clean query to OSM to get exact ward ===
+          const cleanQuery = `${houseNumber} ${streetName} Hà Nội`.trim();
+          console.log('[5] Clean OSM query:', cleanQuery);
+
+          const osmResult = await queryOSM(cleanQuery);
+          console.log('[5] OSM result:', osmResult);
+
+          let results = [];
+          let seenSet = new Set();
+
+          if (osmResult) {
+            // Extract old ward from OSM response
+            const oldWard = extractOldWardFromOSM(osmResult);
+            console.log('[6] Old ward from OSM:', oldWard);
+
+            // Map to new ward
+            const newWardOptions = oldWard ? mapToNewWard(oldWard) : null;
+            console.log('[6] New ward mapping:', newWardOptions);
+
+            if (newWardOptions && newWardOptions.length === 1) {
+              // Single match — confident result
+              const addr = formatNewAddress(houseNumber, streetName, newWardOptions);
+              results.push(addr);
+            } else if (newWardOptions && newWardOptions.length > 1) {
+              // Multiple matches (partial split) — show options
+              for (const opt of newWardOptions) {
+                const wardType = opt.newType === 'Xã' ? 'xã' : 'phường';
+                let addr = houseNumber 
+                  ? `${houseNumber} ${streetName}, ${wardType} ${opt.newWard}, thành phố Hà Nội`
+                  : `${streetName}, ${wardType} ${opt.newWard}, thành phố Hà Nội`;
+                let hash = dedupKey(addr);
+                if (!seenSet.has(hash)) {
+                  seenSet.add(hash);
+                  results.push(addr);
+                }
+              }
+            } else {
+              // OSM returned ward but not in our mapping — use district info fallback
+              results = appendDistrictLevelFallback(results, districts, houseNumber, streetName, seenSet);
+              // Limit to most relevant if there are many districts
+              if (results.length > 5) results = results.slice(0, 5);
+            }
+          } else {
+            // OSM returned nothing — use district-level fallback
+            results = appendDistrictLevelFallback(results, districts, houseNumber, streetName, seenSet);
+            if (results.length > 5) results = results.slice(0, 5);
+          }
+
+          setLoading(false);
+          if (results.length > 0) {
+            handleMultipleResults(results, rawInput);
+          } else {
+            showError("Không thể xác định phường mới cho địa chỉ này.");
+          }
+
+        } else {
+          // === NO LOCAL MATCH — Fallback to original OSM search ===
+          console.log('[FALLBACK] No street match, using direct OSM search');
+          await fallbackOSMSearch(rawInput);
+        }
+
+      } catch (err) {
+        setLoading(false);
+        showError(`Lỗi xử lý: <br><small style="color:#ff6b6b">${err.message}</small>`);
+        console.error(err);
+      }
+    }
+
+    // Query OSM Nominatim with a clean address
+    async function queryOSM(query) {
+      const encoded = encodeURIComponent(query);
+      try {
+        const res = await fetch(`https://nominatim.openstreetmap.org/search?q=${encoded}&format=json&addressdetails=1&limit=1&accept-language=vi&email=hanoilookup@gmail.com`);
+        if (!res.ok) return null;
+        const data = await res.json();
+        if (data && data.length > 0 && isInHanoi(parseFloat(data[0].lat), parseFloat(data[0].lon))) {
+          return data[0];
+        }
+      } catch (e) {
+        console.warn('OSM query failed:', e);
+      }
+      return null;
+    }
+
+    // Extract old ward name from OSM response
+    function extractOldWardFromOSM(osmItem) {
+      if (!osmItem || !osmItem.address) return null;
+      const addr = osmItem.address;
+      const rawWard = addr.suburb || addr.quarter || addr.village || addr.town || "";
+      if (!rawWard) return null;
+      // Clean administrative prefixes
+      return rawWard.replace(/^(phường|xã|thị trấn)\s+/i, '').trim();
+    }
+
+    // Fallback: Original OSM search flow (for inputs without matching street)
+    async function fallbackOSMSearch(rawInput) {
+      let searchQ = rawInput;
+      if (!searchQ.toLowerCase().includes('hà nội') && !searchQ.toLowerCase().includes('hanoi')) {
+        searchQ += ' Hà Nội';
+      }
+      const encodedQuery = encodeURIComponent(searchQ);
+
+      try {
+        const response = await fetch(`https://nominatim.openstreetmap.org/search?q=${encodedQuery}&format=json&addressdetails=1&limit=3&accept-language=vi&email=hanoilookup@gmail.com`);
+        if (!response.ok) throw new Error(`API Error: ${response.status}`);
         const data = await response.json();
 
         let results = [];
         let seenSet = new Set();
 
         if (data && data.length > 0) {
-          // Lấy tối đa 3 kết quả nằm trong Hà Nội
           const hanoiItems = data.filter(item => isInHanoi(parseFloat(item.lat), parseFloat(item.lon)));
-          
-          if (hanoiItems.length > 0) {
-             hanoiItems.forEach(item => {
-                let addrStr = processLocation(item, query);
-                if (addrStr) {
-                   let hash = dedupKey(addrStr);
-                   if (!seenSet.has(hash)) {
-                      seenSet.add(hash);
-                      results.push(addrStr);
-                   }
-                }
-             });
+          for (const item of hanoiItems) {
+            const oldWard = extractOldWardFromOSM(item);
+            const road = item.address?.road || item.address?.pedestrian || '';
+            const houseNum = item.address?.house_number || '';
+            
+            let prefix = '';
+            if (houseNum && road) prefix = `${houseNum} ${road}`;
+            else if (road) prefix = road;
+            else if (item.address?.building && item.address.building !== 'yes') prefix = item.address.building;
+            
+            const newWardOptions = oldWard ? mapToNewWard(oldWard) : null;
+            let addr;
+            if (newWardOptions && newWardOptions.length > 0) {
+              const best = newWardOptions.find(w => !w.isPartial) || newWardOptions[0];
+              const wardType = best.newType === 'Xã' ? 'xã' : 'phường';
+              addr = prefix 
+                ? `${prefix}, ${wardType} ${best.newWard}, thành phố Hà Nội`
+                : `${wardType} ${best.newWard}, thành phố Hà Nội`;
+            } else if (oldWard) {
+              addr = prefix 
+                ? `${prefix}, phường ${oldWard}, thành phố Hà Nội`
+                : `phường ${oldWard}, thành phố Hà Nội`;
+            } else {
+              addr = prefix ? `${prefix}, thành phố Hà Nội` : null;
+            }
+
+            if (addr) {
+              addr = addr.replace(/,\s*,/g, ',').replace(/\s+/g, ' ').trim();
+              const hash = dedupKey(addr);
+              if (!seenSet.has(hash)) {
+                seenSet.add(hash);
+                results.push(addr);
+              }
+            }
           }
         }
 
-        // Nếu Nominatim không có kết quả hợp lệ, Fallback qua Photon
+        // Photon fallback
         if (results.length === 0) {
           const fuzzyRes = await fetch(`https://photon.komoot.io/api/?q=${encodedQuery}&limit=5`);
-          if (!fuzzyRes.ok) throw new Error(`Photon API Error: ${fuzzyRes.status}`);
-          
-          const fuzzyData = await fuzzyRes.json();
+          if (fuzzyRes.ok) {
+            const fuzzyData = await fuzzyRes.json();
+            if (fuzzyData?.features?.length > 0) {
+              const hanoiFeatures = fuzzyData.features.filter(f => {
+                const coords = f.geometry?.coordinates;
+                if (coords && isInHanoi(coords[1], coords[0])) return true;
+                const props = f.properties || {};
+                return (props.city && normalizeStr(props.city).includes('hanoi')) ||
+                       (props.state && normalizeStr(props.state).includes('hanoi'));
+              });
 
-          if (fuzzyData && fuzzyData.features && fuzzyData.features.length > 0) {
-            const hanoiFeatures = fuzzyData.features.filter(f => {
-              const coords = f.geometry?.coordinates;
-              const props = f.properties || {};
-              if (coords && isInHanoi(coords[1], coords[0])) return true;
-              return isInHanoiByProps(props);
-            });
+              for (const f of hanoiFeatures.slice(0, 3)) {
+                const props = f.properties || {};
+                const rawWard = props.district || props.locality || props.county || '';
+                const oldWard = rawWard.replace(/^(phường|xã|thị trấn)\s+/i, '').trim();
+                const road = props.street || props.name || '';
+                
+                const newWardOptions = oldWard ? mapToNewWard(oldWard) : null;
+                let addr;
+                if (newWardOptions && newWardOptions.length > 0) {
+                  const best = newWardOptions.find(w => !w.isPartial) || newWardOptions[0];
+                  const wardType = best.newType === 'Xã' ? 'xã' : 'phường';
+                  addr = road
+                    ? `${road}, ${wardType} ${best.newWard}, thành phố Hà Nội`
+                    : `${wardType} ${best.newWard}, thành phố Hà Nội`;
+                } else {
+                  addr = road ? `${road}, thành phố Hà Nội` : null;
+                }
 
-            hanoiFeatures.slice(0, 3).forEach(f => {
-               let addrStr = processPhotonLocation(f, query);
-               if (addrStr) {
-                  let hash = dedupKey(addrStr);
+                if (addr) {
+                  const hash = dedupKey(addr);
                   if (!seenSet.has(hash)) {
-                     seenSet.add(hash);
-                     results.push(addrStr);
+                    seenSet.add(hash);
+                    results.push(addr);
                   }
-               }
-            });
+                }
+              }
+            }
           }
         }
-        
-        setLoading(false);
 
+        setLoading(false);
         if (results.length > 0) {
-          handleMultipleResults(results, searchQ);
+          handleMultipleResults(results, rawInput);
         } else {
           showError("Không tìm thấy thông tin trên bản đồ.<br>Bạn thử kiểm tra lại chính tả hoặc thêm từ khóa <b>Hà Nội</b>.");
         }
       } catch (err) {
         setLoading(false);
-        showError(`Lỗi kết nối hoặc xử lý dữ liệu bản đồ.<br><small style="color:#ff6b6b; font-size: 0.8rem">${err.message}</small>`);
+        showError(`Lỗi kết nối API.<br><small style="color:#ff6b6b">${err.message}</small>`);
         console.error(err);
       }
     }
 
-    function extractHouseNumber(query) {
-      const match = query.match(/^([A-Za-z]*\d+[\w\-\.\/]*)\s*/i);
-      return match ? match[1].toUpperCase() : "";
-    }
-
-    function cleanRoadName(road) {
-      if (!road) return "";
-      return road.replace(/^(phố|đường|ngõ|ngách|hẻm)\s+/i, '').trim();
-    }
-
-    function isRelevantText(apiText, userQuery) {
-      if (!apiText) return false;
-      const cleanApi = normalizeStr(apiText);
-      const cleanQ = normalizeStr(userQuery);
-      return cleanApi.includes(cleanQ) || cleanQ.includes(cleanApi);
-    }
-
-    function extractAddressPrefix(rawQuery, props) {
-      if (!props) props = {};
-      let rawClean = rawQuery.replace(/\b(hà nội|ha noi)\b/gi, '').trim();
-      let houseNum = extractHouseNumber(rawClean);
-      let queryWithoutHouseNum = rawClean.replace(/^([A-Za-z]*\d+[\w\-\.\/]*)\s*/, '').trim();
-
-      // 1. Nếu là Tòa nhà / Khu đô thị
-      if (props.building || props.residential) {
-         let parts = [];
-         if (props.building && props.building !== 'yes') parts.push(props.building);
-         if (props.residential) parts.push(props.residential);
-         
-         if (parts.length > 0) return parts.join(', ');
-      }
-
-      // 2. Lấy Tên Đường nếu API có trả về
-      let road = props.road || props.pedestrian || props.street || "";
-      let cleanRoad = cleanRoadName(road);
-      
-      // Kiểm tra an toàn: Tên đường API trả về có khớp với từ khóa người dùng không?
-      if (cleanRoad && isRelevantText(cleanRoad, queryWithoutHouseNum)) {
-         // Xử lý rơi vãi số nhà trên API (vd: API trả "142 Đường x" -> gỡ "142")
-         if (houseNum) cleanRoad = cleanRoad.replace(/^[\d\-\/]+\s+/, '');
-         return houseNum ? `${houseNum} ${cleanRoad}` : cleanRoad;
-      }
-
-      // 3. Fallback an toàn tuyệt đối: Dùng chuỗi tự nhiên của người dùng gõ
-      return toTitleCase(rawClean);
-    }
-
-    function processLocation(item, rawQuery) {
-      const info = formatAddressFromOsm(item.address);
-      let outputAddress = "";
-
-      let prefix = extractAddressPrefix(rawQuery, item.address);
-      if (prefix) prefix += ", ";
-
-      if (!info.ward) {
-        outputAddress = item.display_name;
-      } else {
-        outputAddress = `${prefix}phường ${info.ward}, thành phố Hà Nội`;
-        outputAddress = outputAddress.replace(/,\s*,/g, ',').replace(/\s+/g, ' ').trim();
-      }
-
-      return outputAddress;
-    }
-
-    function processPhotonLocation(feature, rawQuery) {
-      const props = feature.properties;
-      let outputAddress = "";
-
-      let prefix = extractAddressPrefix(rawQuery, props);
-      if (prefix) prefix += ", ";
-
-      let rawWard = props.district || props.locality || props.county || props.city || "";
-      let ward = matchWard(rawWard);
-
-      if (!ward) {
-        let fallbackName = props.name || props.street || props.state || "";
-        outputAddress = fallbackName ? `${fallbackName}, thành phố Hà Nội` : `${prefix}thành phố Hà Nội`;
-      } else {
-        outputAddress = `${prefix}phường ${ward}, thành phố Hà Nội`;
-        outputAddress = outputAddress.replace(/,\s*,/g, ',').replace(/\s+/g, ' ').trim();
-      }
-
-      return outputAddress;
-    }
-
-    // [FIX #3] Xử lý hiển thị nhiều kết quả hoặc gợi ý
+    // ==========================================
+    // UI HANDLERS
+    // ==========================================
     function handleMultipleResults(results, originalQuery) {
       if (results.length === 1) {
         showResult(results[0], originalQuery);
@@ -1177,19 +1451,15 @@
       els.suggestionsView.style.display = 'block';
     }
 
-    // Ẩn chips khi có kết quả thành công + lưu lịch sử
     function showResult(address, originalQuery) {
       els.txtAddress.innerHTML = address;
       window.currentCopyAddress = address;
       els.examples.classList.remove('visible');
       els.suggestionsView.style.display = 'none';
       els.resView.classList.add('show');
-
-      // Lưu query vào lịch sử tìm kiếm
       if (originalQuery) {
-         saveRecentSearch(originalQuery);
-         // Ẩn nút X nếu click từ suggestions
-         els.btnClear.classList.add('visible'); 
+        saveRecentSearch(originalQuery);
+        els.btnClear.classList.add('visible');
       }
     }
 
@@ -1200,7 +1470,7 @@
     }
 
     // ==========================================
-    // LỊCH SỬ TÌM KIẾM (RECENT SEARCHES)
+    // RECENT SEARCHES
     // ==========================================
     function loadRecentSearches() {
       let history = localStorage.getItem('recentSearches');
@@ -1208,26 +1478,23 @@
       try {
         let items = JSON.parse(history);
         if (items.length > 0) {
-          els.chipsContainer.innerHTML = items.map(q => 
+          els.chipsContainer.innerHTML = items.map(q =>
             `<button class="chip" onclick="applyExample('${q.replace(/'/g, "\\'")}')">🕒 ${q}</button>`
           ).join('');
         }
-      } catch (e) {}
+      } catch (e) { }
     }
 
-    window.saveRecentSearch = function(query) {
+    window.saveRecentSearch = function (query) {
       if (!query) return;
       let history = localStorage.getItem('recentSearches');
       let items = [];
       if (history) {
-        try { items = JSON.parse(history); } catch (e) {}
+        try { items = JSON.parse(history); } catch (e) { }
       }
-      
-      // Xóa nếu đã tồn tại để đẩy lên đầu
       items = items.filter(i => i.toLowerCase() !== query.toLowerCase());
       items.unshift(query);
       if (items.length > 6) items.pop();
-      
       localStorage.setItem('recentSearches', JSON.stringify(items));
       loadRecentSearches();
     }
@@ -1238,17 +1505,12 @@
       handleSearch();
     }
 
-    // Load lịch sử ngay khi khởi động
-    document.addEventListener('DOMContentLoaded', loadRecentSearches);
-
     window.copyResult = function () {
       if (!window.currentCopyAddress) return;
-
       navigator.clipboard.writeText(window.currentCopyAddress).then(() => {
         els.btnCopy.classList.add('success');
         els.txtCopy.innerText = "Đã sao chép!";
         els.btnCopy.querySelector('svg').innerHTML = '<polyline points="20 6 9 17 4 12"></polyline>';
-
         setTimeout(() => {
           els.btnCopy.classList.remove('success');
           els.txtCopy.innerText = "Sao chép địa chỉ";
@@ -1256,6 +1518,14 @@
         }, 2000);
       });
     }
+
+    // ==========================================
+    // INIT
+    // ==========================================
+    document.addEventListener('DOMContentLoaded', async () => {
+      loadRecentSearches();
+      await loadDatabases();
+    });
   </script>
 </body>
 

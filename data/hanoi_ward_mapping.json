@@ -1,0 +1,4946 @@
+{
+  "Hàng Bạc": [
+    {
+      "newWard": "Hoàn Kiếm",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Hàng Bồ": [
+    {
+      "newWard": "Hoàn Kiếm",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Hàng Buồm": [
+    {
+      "newWard": "Hoàn Kiếm",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Hàng Đào": [
+    {
+      "newWard": "Hoàn Kiếm",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Hàng Gai": [
+    {
+      "newWard": "Hoàn Kiếm",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Hàng Mã": [
+    {
+      "newWard": "Hoàn Kiếm",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Lý Thái Tổ": [
+    {
+      "newWard": "Hoàn Kiếm",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Cửa Đông": [
+    {
+      "newWard": "Hoàn Kiếm",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Ba Đình",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Cửa Nam": [
+    {
+      "newWard": "Hoàn Kiếm",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Cửa Nam",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Ba Đình",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Văn Miếu - Quốc Tử Giám",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Điện Biên": [
+    {
+      "newWard": "Hoàn Kiếm",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Ba Đình",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Văn Miếu - Quốc Tử Giám",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Ô Chợ Dừa",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Đồng Xuân": [
+    {
+      "newWard": "Hoàn Kiếm",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Ba Đình",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Hàng Bông": [
+    {
+      "newWard": "Hoàn Kiếm",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Cửa Nam",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Hàng Trống": [
+    {
+      "newWard": "Hoàn Kiếm",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Cửa Nam",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Tràng Tiền": [
+    {
+      "newWard": "Hoàn Kiếm",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Cửa Nam",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Hàng Bài": [
+    {
+      "newWard": "Cửa Nam",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Phan Chu Trinh": [
+    {
+      "newWard": "Cửa Nam",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Trần Hưng Đạo": [
+    {
+      "newWard": "Cửa Nam",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Nguyễn Du": [
+    {
+      "newWard": "Cửa Nam",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Hai Bà Trưng",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Văn Miếu - Quốc Tử Giám",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Phạm Đình Hổ": [
+    {
+      "newWard": "Cửa Nam",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Hai Bà Trưng",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Quán Thánh": [
+    {
+      "newWard": "Ba Đình",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Trúc Bạch": [
+    {
+      "newWard": "Ba Đình",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Đội Cấn": [
+    {
+      "newWard": "Ba Đình",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Ngọc Hà",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Kim Mã": [
+    {
+      "newWard": "Ba Đình",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Ngọc Hà",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Ngọc Hà": [
+    {
+      "newWard": "Ba Đình",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Ngọc Hà",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Thụy Khuê": [
+    {
+      "newWard": "Ba Đình",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Tây Hồ",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Vĩnh Phúc": [
+    {
+      "newWard": "Ngọc Hà",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Liễu Giai": [
+    {
+      "newWard": "Ngọc Hà",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Cống Vị": [
+    {
+      "newWard": "Ngọc Hà",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Giảng Võ",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Ngọc Khánh": [
+    {
+      "newWard": "Ngọc Hà",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Giảng Võ",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Láng",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Nghĩa Đô": [
+    {
+      "newWard": "Ngọc Hà",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Nghĩa Đô",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Tây Hồ",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Cát Linh": [
+    {
+      "newWard": "Giảng Võ",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Ô Chợ Dừa",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Láng Hạ": [
+    {
+      "newWard": "Giảng Võ",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Đống Đa",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Láng",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Thành Công": [
+    {
+      "newWard": "Giảng Võ",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Ô Chợ Dừa",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Bạch Đằng": [
+    {
+      "newWard": "Hai Bà Trưng",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Hồng Hà",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Lê Đại Hành": [
+    {
+      "newWard": "Hai Bà Trưng",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Bạch Mai",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Văn Miếu - Quốc Tử Giám",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Thanh Nhàn": [
+    {
+      "newWard": "Hai Bà Trưng",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Bạch Mai",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Mai Động": [
+    {
+      "newWard": "Vĩnh Tuy",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Tương Mai",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Thanh Lương": [
+    {
+      "newWard": "Vĩnh Tuy",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Hồng Hà",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Lĩnh Nam",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Vĩnh Hưng": [
+    {
+      "newWard": "Vĩnh Tuy",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Hoàng Mai",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Vĩnh Hưng",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Tương Mai",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Vĩnh Tuy": [
+    {
+      "newWard": "Vĩnh Tuy",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Vĩnh Hưng",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Bạch Mai": [
+    {
+      "newWard": "Bạch Mai",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Bách Khoa": [
+    {
+      "newWard": "Bạch Mai",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Quỳnh Mai": [
+    {
+      "newWard": "Bạch Mai",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Minh Khai": [
+    {
+      "newWard": "Bạch Mai",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Tương Mai",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Tây Tựu",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Đông Ngạc",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Thượng Cát",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Xuân Phương",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Dương Hòa",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Đồng Tâm": [
+    {
+      "newWard": "Bạch Mai",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Tương Mai",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Phúc Sơn",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Trần Phú",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Phương Mai": [
+    {
+      "newWard": "Bạch Mai",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Kim Liên",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Trương Định": [
+    {
+      "newWard": "Bạch Mai",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Tương Mai",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Thịnh Quang": [
+    {
+      "newWard": "Đống Đa",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Quang Trung": [
+    {
+      "newWard": "Đống Đa",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Kim Liên",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Hà Đông",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Kiến Hưng",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Tây Phương",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Kiều Phú",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Nam Đồng": [
+    {
+      "newWard": "Đống Đa",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Kim Liên",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Văn Miếu - Quốc Tử Giám",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Ô Chợ Dừa": [
+    {
+      "newWard": "Đống Đa",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Ô Chợ Dừa",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Trung Liệt": [
+    {
+      "newWard": "Đống Đa",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Kim Liên",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Ô Chợ Dừa",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Kim Liên": [
+    {
+      "newWard": "Kim Liên",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Khương Thượng": [
+    {
+      "newWard": "Kim Liên",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Phương Liên - Trung Tự": [
+    {
+      "newWard": "Kim Liên",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Văn Miếu - Quốc Tử Giám",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Khâm Thiên": [
+    {
+      "newWard": "Văn Miếu - Quốc Tử Giám",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Thổ Quan": [
+    {
+      "newWard": "Văn Miếu - Quốc Tử Giám",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Văn Chương": [
+    {
+      "newWard": "Văn Miếu - Quốc Tử Giám",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Hàng Bột": [
+    {
+      "newWard": "Văn Miếu - Quốc Tử Giám",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Ô Chợ Dừa",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Văn Miếu - Quốc Tử Giám": [
+    {
+      "newWard": "Văn Miếu - Quốc Tử Giám",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Ô Chợ Dừa",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Láng Thượng": [
+    {
+      "newWard": "Láng",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Chương Dương": [
+    {
+      "newWard": "Hồng Hà",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Chương Dương",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Phúc Tân": [
+    {
+      "newWard": "Hồng Hà",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Phúc Xá": [
+    {
+      "newWard": "Hồng Hà",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Nhật Tân": [
+    {
+      "newWard": "Hồng Hà",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Tây Hồ",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Phú Thượng": [
+    {
+      "newWard": "Hồng Hà",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Tây Hồ",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Phú Thượng",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Quảng An": [
+    {
+      "newWard": "Hồng Hà",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Tây Hồ",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Tứ Liên": [
+    {
+      "newWard": "Hồng Hà",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Tây Hồ",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Yên Phụ": [
+    {
+      "newWard": "Hồng Hà",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Tây Hồ",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Bồ Đề": [
+    {
+      "newWard": "Hồng Hà",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Long Biên",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Bồ Đề",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Ngọc Thụy": [
+    {
+      "newWard": "Hồng Hà",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Bồ Đề",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Lĩnh Nam": [
+    {
+      "newWard": "Lĩnh Nam",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Hoàng Mai",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Vĩnh Hưng",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Thanh Trì": [
+    {
+      "newWard": "Lĩnh Nam",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Vĩnh Hưng",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Trần Phú": [
+    {
+      "newWard": "Lĩnh Nam",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Hoàng Mai",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Yên Sở",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Trần Phú",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Yên Sở": [
+    {
+      "newWard": "Lĩnh Nam",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Hoàng Mai",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Yên Sở",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Thanh Trì",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Dương Hòa",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Giáp Bát": [
+    {
+      "newWard": "Hoàng Mai",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Tương Mai",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Định Công",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Hoàng Liệt": [
+    {
+      "newWard": "Hoàng Mai",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Định Công",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Hoàng Liệt",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Yên Sở",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Hoàng Văn Thụ": [
+    {
+      "newWard": "Hoàng Mai",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Tương Mai",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Trần Phú",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tân Mai": [
+    {
+      "newWard": "Hoàng Mai",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Tương Mai",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Thịnh Liệt": [
+    {
+      "newWard": "Hoàng Mai",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Định Công",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Yên Sở",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Phương Liệt",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Tương Mai": [
+    {
+      "newWard": "Hoàng Mai",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Tương Mai",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Phương Liệt": [
+    {
+      "newWard": "Tương Mai",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Phương Liệt",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Định Công": [
+    {
+      "newWard": "Định Công",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Phương Liệt",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Tân Triều": [
+    {
+      "newWard": "Định Công",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Khương Đình",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Hà Đông",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Thanh Liệt",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Thanh Liệt": [
+    {
+      "newWard": "Định Công",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Hoàng Liệt",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Thanh Liệt",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Đại Kim": [
+    {
+      "newWard": "Định Công",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Hoàng Liệt",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Khương Đình",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Thanh Liệt",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Văn Điển": [
+    {
+      "newWard": "Hoàng Liệt",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Thanh Trì",
+      "newType": "Xã",
+      "isPartial": false
+    },
+    {
+      "newWard": "Đại Thanh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Tam Hiệp": [
+    {
+      "newWard": "Hoàng Liệt",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Đại Thanh",
+      "newType": "Xã",
+      "isPartial": false
+    },
+    {
+      "newWard": "Hát Môn",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tứ Hiệp": [
+    {
+      "newWard": "Yên Sở",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Thanh Trì",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Nhân Chính": [
+    {
+      "newWard": "Thanh Xuân",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Yên Hòa",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Đại Mỗ",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Thanh Xuân Bắc": [
+    {
+      "newWard": "Thanh Xuân",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Thanh Liệt",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Thanh Xuân Trung": [
+    {
+      "newWard": "Thanh Xuân",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Khương Đình",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Thượng Đình": [
+    {
+      "newWard": "Thanh Xuân",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Khương Đình",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Trung Hoà": [
+    {
+      "newWard": "Thanh Xuân",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Trung Văn": [
+    {
+      "newWard": "Thanh Xuân",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Đại Mỗ",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Hạ Đình": [
+    {
+      "newWard": "Khương Đình",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Thanh Liệt",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Khương Đình": [
+    {
+      "newWard": "Khương Đình",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Phương Liệt",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Khương Trung": [
+    {
+      "newWard": "Khương Đình",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Phương Liệt",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Khương Mai": [
+    {
+      "newWard": "Phương Liệt",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Dịch Vọng": [
+    {
+      "newWard": "Cầu Giấy",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Nghĩa Đô",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Dịch Vọng Hậu": [
+    {
+      "newWard": "Cầu Giấy",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Nghĩa Đô",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Quan Hoa": [
+    {
+      "newWard": "Cầu Giấy",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Nghĩa Đô",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Mỹ Đình 1": [
+    {
+      "newWard": "Cầu Giấy",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Từ Liêm",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Mỹ Đình 2": [
+    {
+      "newWard": "Cầu Giấy",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Từ Liêm",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Yên Hòa": [
+    {
+      "newWard": "Cầu Giấy",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Yên Hòa",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Nghĩa Tân": [
+    {
+      "newWard": "Nghĩa Đô",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Cổ Nhuế 1": [
+    {
+      "newWard": "Nghĩa Đô",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Phú Diễn",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Xuân Đỉnh",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Mai Dịch": [
+    {
+      "newWard": "Nghĩa Đô",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Phú Diễn",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Từ Liêm",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Xuân La": [
+    {
+      "newWard": "Nghĩa Đô",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Tây Hồ",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Phú Thượng",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Xuân Đỉnh",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Xuân Tảo": [
+    {
+      "newWard": "Nghĩa Đô",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Phú Thượng",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Xuân Đỉnh",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Mễ Trì": [
+    {
+      "newWard": "Yên Hòa",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Từ Liêm",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Đại Mỗ",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Trung Hòa": [
+    {
+      "newWard": "Yên Hòa",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Đại Mỗ",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Phú Nghĩa",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Bưởi": [
+    {
+      "newWard": "Tây Hồ",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Đông Ngạc": [
+    {
+      "newWard": "Phú Thượng",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Đông Ngạc",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Xuân Đỉnh": [
+    {
+      "newWard": "Phú Thượng",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Xuân Đỉnh",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Tây Tựu": [
+    {
+      "newWard": "Tây Tựu",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Thượng Cát",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Hoài Đức",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Ô Diên",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Kim Chung": [
+    {
+      "newWard": "Tây Tựu",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Hoài Đức",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Thiên Lộc",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Vĩnh Thanh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Phú Diễn": [
+    {
+      "newWard": "Phú Diễn",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Phúc Diễn": [
+    {
+      "newWard": "Phú Diễn",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Xuân Phương",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Đức Thắng": [
+    {
+      "newWard": "Đông Ngạc",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Cổ Nhuế 2": [
+    {
+      "newWard": "Đông Ngạc",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Thượng Cát",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Thụy Phương": [
+    {
+      "newWard": "Đông Ngạc",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Thượng Cát",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Liên Mạc": [
+    {
+      "newWard": "Thượng Cát",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Yên Lãng",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Thượng Cát": [
+    {
+      "newWard": "Thượng Cát",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Cầu Diễn": [
+    {
+      "newWard": "Từ Liêm",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Phú Đô": [
+    {
+      "newWard": "Từ Liêm",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Đại Mỗ",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Phương Canh": [
+    {
+      "newWard": "Xuân Phương",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Xuân Phương": [
+    {
+      "newWard": "Xuân Phương",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Đại Mỗ": [
+    {
+      "newWard": "Xuân Phương",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Tây Mỗ",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Đại Mỗ",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Hà Đông",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Dương Nội",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Tây Mỗ": [
+    {
+      "newWard": "Xuân Phương",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Tây Mỗ",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Vân Canh": [
+    {
+      "newWard": "Xuân Phương",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Sơn Đồng",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Dương Nội": [
+    {
+      "newWard": "Tây Mỗ",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Đại Mỗ",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Dương Nội",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "An Khánh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "An Khánh": [
+    {
+      "newWard": "Tây Mỗ",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Sơn Đồng",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "An Khánh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Mộ Lao": [
+    {
+      "newWard": "Đại Mỗ",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Hà Đông",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Cự Khối": [
+    {
+      "newWard": "Long Biên",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Bát Tràng",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Phúc Đồng": [
+    {
+      "newWard": "Long Biên",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Bồ Đề",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Việt Hưng",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Phúc Lợi",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Thạch Bàn": [
+    {
+      "newWard": "Long Biên",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Phúc Lợi",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Gia Lâm",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Bát Tràng",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Bát Tràng": [
+    {
+      "newWard": "Long Biên",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Gia Lâm",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Bát Tràng",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Long Biên": [
+    {
+      "newWard": "Long Biên",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Bồ Đề",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Gia Thụy": [
+    {
+      "newWard": "Long Biên",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Bồ Đề",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Việt Hưng",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Ngọc Lâm": [
+    {
+      "newWard": "Bồ Đề",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Đức Giang": [
+    {
+      "newWard": "Bồ Đề",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Việt Hưng",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Hoài Đức",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Thượng Thanh": [
+    {
+      "newWard": "Bồ Đề",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Việt Hưng",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Giang Biên": [
+    {
+      "newWard": "Việt Hưng",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Phúc Lợi",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Việt Hưng": [
+    {
+      "newWard": "Việt Hưng",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Phúc Lợi",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Phúc Lợi": [
+    {
+      "newWard": "Việt Hưng",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Phúc Lợi",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Cổ Bi": [
+    {
+      "newWard": "Phúc Lợi",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Gia Lâm",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Phù Đổng",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Phúc La": [
+    {
+      "newWard": "Hà Đông",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Vạn Phúc": [
+    {
+      "newWard": "Hà Đông",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Nam Phù",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Hà Cầu": [
+    {
+      "newWard": "Hà Đông",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Kiến Hưng",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "La Khê": [
+    {
+      "newWard": "Hà Đông",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Dương Nội",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Văn Quán": [
+    {
+      "newWard": "Hà Đông",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Thanh Liệt",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Phú La": [
+    {
+      "newWard": "Dương Nội",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Kiến Hưng",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Yên Nghĩa": [
+    {
+      "newWard": "Dương Nội",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Yên Nghĩa",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "La Phù": [
+    {
+      "newWard": "Dương Nội",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "An Khánh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Đồng Mai": [
+    {
+      "newWard": "Yên Nghĩa",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Chương Mỹ",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Phú Lãm": [
+    {
+      "newWard": "Phú Lương",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Kiến Hưng": [
+    {
+      "newWard": "Phú Lương",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Kiến Hưng",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Đại Thanh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Phú Lương": [
+    {
+      "newWard": "Phú Lương",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Kiến Hưng",
+      "newType": "Phường",
+      "isPartial": false
+    },
+    {
+      "newWard": "Bình Minh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Cự Khê": [
+    {
+      "newWard": "Phú Lương",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Bình Minh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Hữu Hòa": [
+    {
+      "newWard": "Phú Lương",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Đại Thanh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Ngũ Hiệp": [
+    {
+      "newWard": "Thanh Trì",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Nam Phù",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Vĩnh Quỳnh": [
+    {
+      "newWard": "Thanh Trì",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Đại Thanh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Yên Mỹ": [
+    {
+      "newWard": "Thanh Trì",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Nam Phù",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Duyên Hà": [
+    {
+      "newWard": "Thanh Trì",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Nam Phù",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Tả Thanh Oai": [
+    {
+      "newWard": "Đại Thanh",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Thanh Liệt",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Liên Ninh": [
+    {
+      "newWard": "Nam Phù",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Ngọc Hồi",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Ninh Sở": [
+    {
+      "newWard": "Nam Phù",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Hồng Vân",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Đông Mỹ": [
+    {
+      "newWard": "Nam Phù",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Hồng Vân",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Duyên Thái": [
+    {
+      "newWard": "Nam Phù",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Ngọc Hồi",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Hồng Vân",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Ngọc Hồi": [
+    {
+      "newWard": "Ngọc Hồi",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Đại Áng": [
+    {
+      "newWard": "Ngọc Hồi",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Thường Tín",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Khánh Hà": [
+    {
+      "newWard": "Ngọc Hồi",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Thường Tín",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Tân Minh": [
+    {
+      "newWard": "Thượng Phúc",
+      "newType": "Xã",
+      "isPartial": false
+    },
+    {
+      "newWard": "Sóc Sơn",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Dũng Tiến": [
+    {
+      "newWard": "Thượng Phúc",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Quất Động": [
+    {
+      "newWard": "Thượng Phúc",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Nghiêm Xuyên": [
+    {
+      "newWard": "Thượng Phúc",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Nguyễn Trãi": [
+    {
+      "newWard": "Thượng Phúc",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Thường Tín": [
+    {
+      "newWard": "Thường Tín",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tiền Phong": [
+    {
+      "newWard": "Thường Tín",
+      "newType": "Xã",
+      "isPartial": false
+    },
+    {
+      "newWard": "Thiên Lộc",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Mê Linh",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Quang Minh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Hiền Giang": [
+    {
+      "newWard": "Thường Tín",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Hòa Bình": [
+    {
+      "newWard": "Thường Tín",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Nhị Khê": [
+    {
+      "newWard": "Thường Tín",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Văn Bình": [
+    {
+      "newWard": "Thường Tín",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Văn Phú": [
+    {
+      "newWard": "Thường Tín",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Lê Lợi": [
+    {
+      "newWard": "Chương Dương",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Thắng Lợi": [
+    {
+      "newWard": "Chương Dương",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tự Nhiên": [
+    {
+      "newWard": "Chương Dương",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tô Hiệu": [
+    {
+      "newWard": "Chương Dương",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Phú Xuyên",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Vạn Nhất": [
+    {
+      "newWard": "Chương Dương",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Phú Xuyên",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Hà Hồi": [
+    {
+      "newWard": "Hồng Vân",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Hồng Vân": [
+    {
+      "newWard": "Hồng Vân",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Liên Phương": [
+    {
+      "newWard": "Hồng Vân",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Vân Tảo": [
+    {
+      "newWard": "Hồng Vân",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Phú Minh": [
+    {
+      "newWard": "Phú Xuyên",
+      "newType": "Xã",
+      "isPartial": false
+    },
+    {
+      "newWard": "Sóc Sơn",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Nội Bài",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Phú Xuyên": [
+    {
+      "newWard": "Phú Xuyên",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Hồng Thái": [
+    {
+      "newWard": "Phú Xuyên",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Minh Cường": [
+    {
+      "newWard": "Phú Xuyên",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Nam Phong": [
+    {
+      "newWard": "Phú Xuyên",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Nam Tiến": [
+    {
+      "newWard": "Phú Xuyên",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Quang Hà": [
+    {
+      "newWard": "Phú Xuyên",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Văn Tự": [
+    {
+      "newWard": "Phú Xuyên",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Hoàng Long": [
+    {
+      "newWard": "Phượng Dực",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Hồng Minh": [
+    {
+      "newWard": "Phượng Dực",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Phú Túc": [
+    {
+      "newWard": "Phượng Dực",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Văn Hoàng": [
+    {
+      "newWard": "Phượng Dực",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Phượng Dực": [
+    {
+      "newWard": "Phượng Dực",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tân Dân": [
+    {
+      "newWard": "Chuyên Mỹ",
+      "newType": "Xã",
+      "isPartial": false
+    },
+    {
+      "newWard": "Kim Anh",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Châu Can": [
+    {
+      "newWard": "Chuyên Mỹ",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Phú Yên": [
+    {
+      "newWard": "Chuyên Mỹ",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Vân Từ": [
+    {
+      "newWard": "Chuyên Mỹ",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Chuyên Mỹ": [
+    {
+      "newWard": "Chuyên Mỹ",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Bạch Hạ": [
+    {
+      "newWard": "Đại Xuyên",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Khai Thái": [
+    {
+      "newWard": "Đại Xuyên",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Minh Tân": [
+    {
+      "newWard": "Đại Xuyên",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Phúc Tiến": [
+    {
+      "newWard": "Đại Xuyên",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Quang Lãng": [
+    {
+      "newWard": "Đại Xuyên",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tri Thủy": [
+    {
+      "newWard": "Đại Xuyên",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Đại Xuyên": [
+    {
+      "newWard": "Đại Xuyên",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Kim Bài": [
+    {
+      "newWard": "Thanh Oai",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Đỗ Động": [
+    {
+      "newWard": "Thanh Oai",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Kim An": [
+    {
+      "newWard": "Thanh Oai",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Phương Trung": [
+    {
+      "newWard": "Thanh Oai",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Thanh Mai": [
+    {
+      "newWard": "Thanh Oai",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Kim Thư": [
+    {
+      "newWard": "Thanh Oai",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Hòa Phú",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Bích Hòa": [
+    {
+      "newWard": "Bình Minh",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Bình Minh": [
+    {
+      "newWard": "Bình Minh",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Cao Viên": [
+    {
+      "newWard": "Bình Minh",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Thanh Cao": [
+    {
+      "newWard": "Bình Minh",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Lam Điền": [
+    {
+      "newWard": "Bình Minh",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Quảng Bị",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Mỹ Hưng": [
+    {
+      "newWard": "Tam Hưng",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Thanh Thùy": [
+    {
+      "newWard": "Tam Hưng",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Thanh Văn": [
+    {
+      "newWard": "Tam Hưng",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tam Hưng": [
+    {
+      "newWard": "Tam Hưng",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Cao Xuân Dương": [
+    {
+      "newWard": "Dân Hòa",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Hồng Dương": [
+    {
+      "newWard": "Dân Hòa",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Liên Châu": [
+    {
+      "newWard": "Dân Hòa",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tân Ước": [
+    {
+      "newWard": "Dân Hòa",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Dân Hòa": [
+    {
+      "newWard": "Dân Hòa",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Vân Đình": [
+    {
+      "newWard": "Vân Đình",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Cao Sơn Tiến": [
+    {
+      "newWard": "Vân Đình",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Phương Tú": [
+    {
+      "newWard": "Vân Đình",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tảo Dương Văn": [
+    {
+      "newWard": "Vân Đình",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Hoa Viên": [
+    {
+      "newWard": "Ứng Thiên",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Liên Bạt": [
+    {
+      "newWard": "Ứng Thiên",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Quảng Phú Cầu": [
+    {
+      "newWard": "Ứng Thiên",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Trường Thịnh": [
+    {
+      "newWard": "Ứng Thiên",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Hòa Phú": [
+    {
+      "newWard": "Hòa Xá",
+      "newType": "Xã",
+      "isPartial": false
+    },
+    {
+      "newWard": "Hòa Phú",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Thái Hòa": [
+    {
+      "newWard": "Hòa Xá",
+      "newType": "Xã",
+      "isPartial": false
+    },
+    {
+      "newWard": "Vật Lại",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Bình Lưu Quang": [
+    {
+      "newWard": "Hòa Xá",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Phù Lưu Thành": [
+    {
+      "newWard": "Hòa Xá",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Đại Cường": [
+    {
+      "newWard": "Ứng Hòa",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Đại Hùng": [
+    {
+      "newWard": "Ứng Hòa",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Đông Lỗ": [
+    {
+      "newWard": "Ứng Hòa",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Đồng Tân": [
+    {
+      "newWard": "Ứng Hòa",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Kim Đường": [
+    {
+      "newWard": "Ứng Hòa",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Minh Đức": [
+    {
+      "newWard": "Ứng Hòa",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Trầm Lộng": [
+    {
+      "newWard": "Ứng Hòa",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Trung Tú": [
+    {
+      "newWard": "Ứng Hòa",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Đại Nghĩa": [
+    {
+      "newWard": "Mỹ Đức",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "An Phú": [
+    {
+      "newWard": "Mỹ Đức",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Đại Hưng": [
+    {
+      "newWard": "Mỹ Đức",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Hợp Thanh": [
+    {
+      "newWard": "Mỹ Đức",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Phù Lưu Tế": [
+    {
+      "newWard": "Mỹ Đức",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Phùng Xá": [
+    {
+      "newWard": "Hồng Sơn",
+      "newType": "Xã",
+      "isPartial": false
+    },
+    {
+      "newWard": "Tây Phương",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "An Mỹ": [
+    {
+      "newWard": "Hồng Sơn",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Hợp Tiến": [
+    {
+      "newWard": "Hồng Sơn",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Lê Thanh": [
+    {
+      "newWard": "Hồng Sơn",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Xuy Xá": [
+    {
+      "newWard": "Hồng Sơn",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Hồng Sơn": [
+    {
+      "newWard": "Hồng Sơn",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Mỹ Xuyên": [
+    {
+      "newWard": "Phúc Sơn",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Phúc Lâm": [
+    {
+      "newWard": "Phúc Sơn",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Thượng Lâm": [
+    {
+      "newWard": "Phúc Sơn",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tuy Lai": [
+    {
+      "newWard": "Phúc Sơn",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "An Tiến": [
+    {
+      "newWard": "Hương Sơn",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Hùng Tiến": [
+    {
+      "newWard": "Hương Sơn",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Vạn Tín": [
+    {
+      "newWard": "Hương Sơn",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Hương Sơn": [
+    {
+      "newWard": "Hương Sơn",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Biên Giang": [
+    {
+      "newWard": "Chương Mỹ",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Chúc Sơn": [
+    {
+      "newWard": "Chương Mỹ",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Đại Yên": [
+    {
+      "newWard": "Chương Mỹ",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Ngọc Hòa": [
+    {
+      "newWard": "Chương Mỹ",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Phụng Châu": [
+    {
+      "newWard": "Chương Mỹ",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Tiên Phương": [
+    {
+      "newWard": "Chương Mỹ",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Thụy Hương": [
+    {
+      "newWard": "Chương Mỹ",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Đông Phương Yên": [
+    {
+      "newWard": "Phú Nghĩa",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Đông Sơn": [
+    {
+      "newWard": "Phú Nghĩa",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Thanh Bình": [
+    {
+      "newWard": "Phú Nghĩa",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Trường Yên": [
+    {
+      "newWard": "Phú Nghĩa",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Phú Nghĩa": [
+    {
+      "newWard": "Phú Nghĩa",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Xuân Mai": [
+    {
+      "newWard": "Xuân Mai",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Nam Phương Tiến": [
+    {
+      "newWard": "Xuân Mai",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Thủy Xuân Tiên": [
+    {
+      "newWard": "Xuân Mai",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tân Tiến": [
+    {
+      "newWard": "Xuân Mai",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Trần Phú",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Hữu Văn": [
+    {
+      "newWard": "Trần Phú",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Mỹ Lương": [
+    {
+      "newWard": "Trần Phú",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Đồng Lạc": [
+    {
+      "newWard": "Hòa Phú",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Hồng Phú": [
+    {
+      "newWard": "Hòa Phú",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Thượng Vực": [
+    {
+      "newWard": "Hòa Phú",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Văn Võ": [
+    {
+      "newWard": "Hòa Phú",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Hoàng Diệu": [
+    {
+      "newWard": "Quảng Bị",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Hợp Đồng": [
+    {
+      "newWard": "Quảng Bị",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Quảng Bị": [
+    {
+      "newWard": "Quảng Bị",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tốt Động": [
+    {
+      "newWard": "Quảng Bị",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Minh Châu": [
+    {
+      "newWard": "Minh Châu",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tây Đằng": [
+    {
+      "newWard": "Minh Châu",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Quảng Oai",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Chu Minh": [
+    {
+      "newWard": "Minh Châu",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Quảng Oai",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Cam Thượng": [
+    {
+      "newWard": "Quảng Oai",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Đông Quang": [
+    {
+      "newWard": "Quảng Oai",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tiên Phong": [
+    {
+      "newWard": "Quảng Oai",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Thụy An": [
+    {
+      "newWard": "Quảng Oai",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Suối Hai",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Phú Sơn": [
+    {
+      "newWard": "Vật Lại",
+      "newType": "Xã",
+      "isPartial": false
+    },
+    {
+      "newWard": "Gia Lâm",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Thuận An",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Đồng Thái": [
+    {
+      "newWard": "Vật Lại",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Phú Châu": [
+    {
+      "newWard": "Vật Lại",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Vật Lại": [
+    {
+      "newWard": "Vật Lại",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Phú Cường": [
+    {
+      "newWard": "Cổ Đô",
+      "newType": "Xã",
+      "isPartial": false
+    },
+    {
+      "newWard": "Nội Bài",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Cổ Đô": [
+    {
+      "newWard": "Cổ Đô",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Phong Vân": [
+    {
+      "newWard": "Cổ Đô",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Phú Hồng": [
+    {
+      "newWard": "Cổ Đô",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Phú Đông": [
+    {
+      "newWard": "Cổ Đô",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Vạn Thắng": [
+    {
+      "newWard": "Cổ Đô",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Thuần Mỹ": [
+    {
+      "newWard": "Bất Bạt",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tòng Bạt": [
+    {
+      "newWard": "Bất Bạt",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Sơn Đà": [
+    {
+      "newWard": "Bất Bạt",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Cẩm Lĩnh": [
+    {
+      "newWard": "Bất Bạt",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Suối Hai",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Minh Quang": [
+    {
+      "newWard": "Bất Bạt",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Ba Vì",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Ba Trại": [
+    {
+      "newWard": "Suối Hai",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tản Lĩnh": [
+    {
+      "newWard": "Suối Hai",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Ba Vì": [
+    {
+      "newWard": "Ba Vì",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Khánh Thượng": [
+    {
+      "newWard": "Ba Vì",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Vân Hòa": [
+    {
+      "newWard": "Yên Bài",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Yên Bài": [
+    {
+      "newWard": "Yên Bài",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Thạch Hòa": [
+    {
+      "newWard": "Yên Bài",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Hòa Lạc",
+      "newType": "Xã",
+      "isPartial": false
+    },
+    {
+      "newWard": "Yên Xuân",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Ngô Quyền": [
+    {
+      "newWard": "Sơn Tây",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Phú Thịnh": [
+    {
+      "newWard": "Sơn Tây",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Viên Sơn": [
+    {
+      "newWard": "Sơn Tây",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Đường Lâm": [
+    {
+      "newWard": "Sơn Tây",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Trung Hưng": [
+    {
+      "newWard": "Sơn Tây",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Tùng Thiện",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Sơn Lộc": [
+    {
+      "newWard": "Sơn Tây",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Tùng Thiện",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Thanh Mỹ": [
+    {
+      "newWard": "Sơn Tây",
+      "newType": "Phường",
+      "isPartial": true
+    },
+    {
+      "newWard": "Tùng Thiện",
+      "newType": "Phường",
+      "isPartial": true
+    }
+  ],
+  "Xuân Khanh": [
+    {
+      "newWard": "Tùng Thiện",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Trung Sơn Trầm": [
+    {
+      "newWard": "Tùng Thiện",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Xuân Sơn": [
+    {
+      "newWard": "Tùng Thiện",
+      "newType": "Phường",
+      "isPartial": false
+    }
+  ],
+  "Kim Sơn": [
+    {
+      "newWard": "Đoài Phương",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Sơn Đông": [
+    {
+      "newWard": "Đoài Phương",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Cổ Đông": [
+    {
+      "newWard": "Đoài Phương",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Hòa Lạc",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Phúc Thọ": [
+    {
+      "newWard": "Phúc Thọ",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Long Thượng": [
+    {
+      "newWard": "Phúc Thọ",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Phúc Hòa": [
+    {
+      "newWard": "Phúc Thọ",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Phụng Thượng": [
+    {
+      "newWard": "Phúc Thọ",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tích Lộc": [
+    {
+      "newWard": "Phúc Thọ",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Trạch Mỹ Lộc": [
+    {
+      "newWard": "Phúc Thọ",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Nam Hà": [
+    {
+      "newWard": "Phúc Lộc",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Sen Phương": [
+    {
+      "newWard": "Phúc Lộc",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Vân Phúc": [
+    {
+      "newWard": "Phúc Lộc",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Võng Xuyên": [
+    {
+      "newWard": "Phúc Lộc",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Xuân Đình": [
+    {
+      "newWard": "Phúc Lộc",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Hiệp Thuận": [
+    {
+      "newWard": "Hát Môn",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Liên Hiệp": [
+    {
+      "newWard": "Hát Môn",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Ngọc Tảo": [
+    {
+      "newWard": "Hát Môn",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tam Thuấn": [
+    {
+      "newWard": "Hát Môn",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Thanh Đa": [
+    {
+      "newWard": "Hát Môn",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Hát Môn": [
+    {
+      "newWard": "Hát Môn",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Liên Quan": [
+    {
+      "newWard": "Thạch Thất",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Cẩm Yên": [
+    {
+      "newWard": "Thạch Thất",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Đại Đồng": [
+    {
+      "newWard": "Thạch Thất",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Kim Quan": [
+    {
+      "newWard": "Thạch Thất",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Lại Thượng": [
+    {
+      "newWard": "Thạch Thất",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Phú Kim": [
+    {
+      "newWard": "Thạch Thất",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Cần Kiệm": [
+    {
+      "newWard": "Hạ Bằng",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Đồng Trúc": [
+    {
+      "newWard": "Hạ Bằng",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Bình Yên": [
+    {
+      "newWard": "Hạ Bằng",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Hòa Lạc",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Hạ Bằng": [
+    {
+      "newWard": "Hạ Bằng",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Hòa Lạc",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Tân Xã": [
+    {
+      "newWard": "Hạ Bằng",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Hòa Lạc",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Phú Cát": [
+    {
+      "newWard": "Hạ Bằng",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Phú Cát",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Hương Ngải": [
+    {
+      "newWard": "Tây Phương",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Lam Sơn": [
+    {
+      "newWard": "Tây Phương",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Thạch Xá": [
+    {
+      "newWard": "Tây Phương",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Quốc Oai": [
+    {
+      "newWard": "Tây Phương",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Quốc Oai",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Ngọc Liệp": [
+    {
+      "newWard": "Tây Phương",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Kiều Phú",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Phượng Sơn": [
+    {
+      "newWard": "Tây Phương",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Quốc Oai",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Tiến Xuân": [
+    {
+      "newWard": "Hòa Lạc",
+      "newType": "Xã",
+      "isPartial": false
+    },
+    {
+      "newWard": "Yên Xuân",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Đông Xuân": [
+    {
+      "newWard": "Yên Xuân",
+      "newType": "Xã",
+      "isPartial": false
+    },
+    {
+      "newWard": "Sóc Sơn",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Yên Bình": [
+    {
+      "newWard": "Yên Xuân",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Yên Trung": [
+    {
+      "newWard": "Yên Xuân",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Thạch Thán": [
+    {
+      "newWard": "Quốc Oai",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Sài Sơn": [
+    {
+      "newWard": "Quốc Oai",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Ngọc Mỹ": [
+    {
+      "newWard": "Quốc Oai",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Kiều Phú",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Cộng Hoà": [
+    {
+      "newWard": "Hưng Đạo",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Đồng Quang": [
+    {
+      "newWard": "Hưng Đạo",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Hưng Đạo": [
+    {
+      "newWard": "Hưng Đạo",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Cấn Hữu": [
+    {
+      "newWard": "Kiều Phú",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Liệp Nghĩa": [
+    {
+      "newWard": "Kiều Phú",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tuyết Nghĩa": [
+    {
+      "newWard": "Kiều Phú",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Đông Yên": [
+    {
+      "newWard": "Phú Cát",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Hoà Thạch": [
+    {
+      "newWard": "Phú Cát",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Phú Mãn": [
+    {
+      "newWard": "Phú Cát",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Trạm Trôi": [
+    {
+      "newWard": "Hoài Đức",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Di Trạch": [
+    {
+      "newWard": "Hoài Đức",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Đức Thượng": [
+    {
+      "newWard": "Hoài Đức",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tân Lập": [
+    {
+      "newWard": "Hoài Đức",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Ô Diên",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Cát Quế": [
+    {
+      "newWard": "Dương Hòa",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Dương Liễu": [
+    {
+      "newWard": "Dương Hòa",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Đắc Sở": [
+    {
+      "newWard": "Dương Hòa",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Lại Yên": [
+    {
+      "newWard": "Sơn Đồng",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Sơn Đồng": [
+    {
+      "newWard": "Sơn Đồng",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tiền Yên": [
+    {
+      "newWard": "Sơn Đồng",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Song Phương": [
+    {
+      "newWard": "Sơn Đồng",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "An Khánh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Vân Côn": [
+    {
+      "newWard": "Sơn Đồng",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "An Khánh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "An Thượng": [
+    {
+      "newWard": "Sơn Đồng",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "An Khánh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Đông La": [
+    {
+      "newWard": "An Khánh",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Phùng": [
+    {
+      "newWard": "Đan Phượng",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Đồng Tháp": [
+    {
+      "newWard": "Đan Phượng",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Song Phượng": [
+    {
+      "newWard": "Đan Phượng",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Thượng Mỗ": [
+    {
+      "newWard": "Đan Phượng",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Đan Phượng": [
+    {
+      "newWard": "Đan Phượng",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Hạ Mỗ": [
+    {
+      "newWard": "Ô Diên",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tân Hội": [
+    {
+      "newWard": "Ô Diên",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Liên Hà": [
+    {
+      "newWard": "Ô Diên",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Thư Lâm",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Đông Anh",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Mê Linh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Hồng Hà": [
+    {
+      "newWard": "Ô Diên",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Liên Minh",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Mê Linh",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Yên Lãng",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Liên Hồng": [
+    {
+      "newWard": "Ô Diên",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Mê Linh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Liên Trung": [
+    {
+      "newWard": "Ô Diên",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Mê Linh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Văn Khê": [
+    {
+      "newWard": "Ô Diên",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Mê Linh",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Yên Lãng",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Tiến Thắng",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Phương Đình": [
+    {
+      "newWard": "Liên Minh",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Trung Châu": [
+    {
+      "newWard": "Liên Minh",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Yên Lãng",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Thọ Xuân": [
+    {
+      "newWard": "Liên Minh",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Yên Lãng",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Thọ An": [
+    {
+      "newWard": "Liên Minh",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Yên Lãng",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Tiến Thịnh": [
+    {
+      "newWard": "Liên Minh",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Yên Lãng",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Dương Xá": [
+    {
+      "newWard": "Gia Lâm",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Kiêu Kỵ": [
+    {
+      "newWard": "Gia Lâm",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Trâu Quỳ": [
+    {
+      "newWard": "Gia Lâm",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Bát Tràng",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Đa Tốn": [
+    {
+      "newWard": "Gia Lâm",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Bát Tràng",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Dương Quang": [
+    {
+      "newWard": "Thuận An",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Lệ Chi": [
+    {
+      "newWard": "Thuận An",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Đặng Xá": [
+    {
+      "newWard": "Thuận An",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Phù Đổng",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Kim Đức": [
+    {
+      "newWard": "Bát Tràng",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Yên Viên": [
+    {
+      "newWard": "Phù Đổng",
+      "newType": "Xã",
+      "isPartial": false
+    },
+    {
+      "newWard": "Phù Đổng",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Ninh Hiệp": [
+    {
+      "newWard": "Phù Đổng",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Phù Đổng": [
+    {
+      "newWard": "Phù Đổng",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Thiên Đức": [
+    {
+      "newWard": "Phù Đổng",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Yên Thường": [
+    {
+      "newWard": "Phù Đổng",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Thụy Lâm": [
+    {
+      "newWard": "Thư Lâm",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Vân Hà": [
+    {
+      "newWard": "Thư Lâm",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Xuân Nộn": [
+    {
+      "newWard": "Thư Lâm",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Phúc Thịnh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Đông Anh": [
+    {
+      "newWard": "Thư Lâm",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Đông Anh",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Phúc Thịnh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Dục Tú": [
+    {
+      "newWard": "Thư Lâm",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Đông Anh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Nguyên Khê": [
+    {
+      "newWard": "Thư Lâm",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Phúc Thịnh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Uy Nỗ": [
+    {
+      "newWard": "Thư Lâm",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Đông Anh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Việt Hùng": [
+    {
+      "newWard": "Thư Lâm",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Đông Anh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Cổ Loa": [
+    {
+      "newWard": "Đông Anh",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Đông Hội": [
+    {
+      "newWard": "Đông Anh",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Mai Lâm": [
+    {
+      "newWard": "Đông Anh",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tàm Xá": [
+    {
+      "newWard": "Đông Anh",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Vĩnh Thanh",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tiên Dương": [
+    {
+      "newWard": "Đông Anh",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Phúc Thịnh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Vĩnh Ngọc": [
+    {
+      "newWard": "Đông Anh",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Phúc Thịnh",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Vĩnh Thanh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Xuân Canh": [
+    {
+      "newWard": "Đông Anh",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Vĩnh Thanh",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Bắc Hồng": [
+    {
+      "newWard": "Phúc Thịnh",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Nam Hồng": [
+    {
+      "newWard": "Phúc Thịnh",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Vân Nội": [
+    {
+      "newWard": "Phúc Thịnh",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Võng La": [
+    {
+      "newWard": "Thiên Lộc",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Đại Mạch": [
+    {
+      "newWard": "Thiên Lộc",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Mê Linh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Kim Nỗ": [
+    {
+      "newWard": "Thiên Lộc",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Vĩnh Thanh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Hải Bối": [
+    {
+      "newWard": "Thiên Lộc",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Vĩnh Thanh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Tráng Việt": [
+    {
+      "newWard": "Mê Linh",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Mê Linh": [
+    {
+      "newWard": "Mê Linh",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Quang Minh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Đại Thịnh": [
+    {
+      "newWard": "Mê Linh",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Tiến Thắng",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Quang Minh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Chu Phan": [
+    {
+      "newWard": "Yên Lãng",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Hoàng Kim": [
+    {
+      "newWard": "Yên Lãng",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Thạch Đà": [
+    {
+      "newWard": "Yên Lãng",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Tiến Thắng",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Tam Đồng": [
+    {
+      "newWard": "Tiến Thắng",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tiến Thắng": [
+    {
+      "newWard": "Tiến Thắng",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tự Lập": [
+    {
+      "newWard": "Tiến Thắng",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Kim Hoa": [
+    {
+      "newWard": "Tiến Thắng",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Quang Minh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Thanh Lâm": [
+    {
+      "newWard": "Tiến Thắng",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Quang Minh",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Chi Đông": [
+    {
+      "newWard": "Quang Minh",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Quang Minh": [
+    {
+      "newWard": "Quang Minh",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Sóc Sơn": [
+    {
+      "newWard": "Sóc Sơn",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Phù Lỗ": [
+    {
+      "newWard": "Sóc Sơn",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Phù Linh": [
+    {
+      "newWard": "Sóc Sơn",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tiên Dược": [
+    {
+      "newWard": "Sóc Sơn",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Mai Đình": [
+    {
+      "newWard": "Sóc Sơn",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Nội Bài",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Quang Tiến": [
+    {
+      "newWard": "Sóc Sơn",
+      "newType": "Xã",
+      "isPartial": true
+    },
+    {
+      "newWard": "Nội Bài",
+      "newType": "Xã",
+      "isPartial": true
+    }
+  ],
+  "Bắc Phú": [
+    {
+      "newWard": "Đa Phúc",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Đức Hoà": [
+    {
+      "newWard": "Đa Phúc",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Kim Lũ": [
+    {
+      "newWard": "Đa Phúc",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Tân Hưng": [
+    {
+      "newWard": "Đa Phúc",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Việt Long": [
+    {
+      "newWard": "Đa Phúc",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Xuân Giang": [
+    {
+      "newWard": "Đa Phúc",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Xuân Thu": [
+    {
+      "newWard": "Đa Phúc",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Hiền Ninh": [
+    {
+      "newWard": "Nội Bài",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Thanh Xuân": [
+    {
+      "newWard": "Nội Bài",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Bắc Sơn": [
+    {
+      "newWard": "Trung Giã",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Hồng Kỳ": [
+    {
+      "newWard": "Trung Giã",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Nam Sơn": [
+    {
+      "newWard": "Trung Giã",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Trung Giã": [
+    {
+      "newWard": "Trung Giã",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Minh Phú": [
+    {
+      "newWard": "Kim Anh",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ],
+  "Minh Trí": [
+    {
+      "newWard": "Kim Anh",
+      "newType": "Xã",
+      "isPartial": false
+    }
+  ]
+}
