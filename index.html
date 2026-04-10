@@ -913,6 +913,13 @@
         .replace(/[^a-z0-9]/g, "");
     }
 
+    function dedupKey(addr) {
+      if (!addr) return "";
+      let s = addr.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "d");
+      s = s.replace(/\b(pho|duong|ngo|ngach|hem|phuong|quan|xa|huyen|thanh pho|tinh|thi xa|thi tran)\b/g, "");
+      return s.replace(/[^a-z0-9]/g, "");
+    }
+
     function cleanAdmin(name) {
       if (!name) return "";
       return name.replace(/^(phường|quận|xã|thị trấn|huyện|p\.|q\.)\s*/i, '')
@@ -1004,6 +1011,7 @@
         const data = await response.json();
 
         let results = [];
+        let seenSet = new Set();
 
         if (data && data.length > 0) {
           // Lấy tối đa 3 kết quả nằm trong Hà Nội
@@ -1012,8 +1020,12 @@
           if (hanoiItems.length > 0) {
              hanoiItems.forEach(item => {
                 let addrStr = processLocation(item, query);
-                if (addrStr && !results.includes(addrStr)) {
-                   results.push(addrStr);
+                if (addrStr) {
+                   let hash = dedupKey(addrStr);
+                   if (!seenSet.has(hash)) {
+                      seenSet.add(hash);
+                      results.push(addrStr);
+                   }
                 }
              });
           }
@@ -1036,8 +1048,12 @@
 
             hanoiFeatures.slice(0, 3).forEach(f => {
                let addrStr = processPhotonLocation(f, query);
-               if (addrStr && !results.includes(addrStr)) {
-                  results.push(addrStr);
+               if (addrStr) {
+                  let hash = dedupKey(addrStr);
+                  if (!seenSet.has(hash)) {
+                     seenSet.add(hash);
+                     results.push(addrStr);
+                  }
                }
             });
           }
