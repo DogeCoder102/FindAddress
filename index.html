@@ -600,7 +600,35 @@
       line-height: 1.5;
     }
 
-    /* ===== Footer ===== */
+    /* ===== Back Button ===== */
+    .btn-back {
+      flex: 0 0 auto;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: var(--text-secondary);
+      padding: 14px 20px;
+      border-radius: var(--radius-md);
+      font-weight: 500;
+      font-size: 0.95rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: all 0.2s;
+    }
+
+    .btn-back:hover {
+      background: rgba(255, 255, 255, 0.15);
+      color: var(--text-main);
+    }
+    
+    .btn-back svg {
+      width: 18px;
+      height: 18px;
+    }
+
+    /* ===== Utilities ===== */
     .footer {
       text-align: center;
       margin-top: auto;
@@ -623,6 +651,41 @@
 
     /* ===== Responsive ===== */
     @media (max-width: 480px) {
+      .submit-btn .btn-text {
+        display: none;
+      }
+
+      .submit-btn {
+        padding: 0;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        justify-content: center;
+      }
+
+      .submit-btn .btn-arrow {
+        margin-left: 0;
+      }
+
+      .clear-btn {
+        width: 40px;
+        height: 40px;
+        margin-right: 4px;
+      }
+      
+      .clear-btn svg {
+        width: 18px;
+        height: 18px;
+      }
+
+      /* Make address break gracefully */
+      .action-row {
+        flex-direction: column;
+      }
+      
+      .btn-back {
+        width: 100%;
+      }
       .container {
         gap: 20px;
         padding-left: 16px;
@@ -658,14 +721,6 @@
     }
 
     @media (max-width: 380px) {
-      .submit-btn .btn-text {
-        display: none;
-      }
-
-      .submit-btn {
-        padding: 14px 16px;
-      }
-
       .search-input-group {
         padding-left: 14px;
       }
@@ -703,7 +758,7 @@
             <circle cx="11" cy="11" r="8"></circle>
             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
           </svg>
-          <input type="text" id="searchInput" class="search-input" placeholder="Nhập tên đường, tòa nhà, ngõ..."
+          <input type="text" id="searchInput" class="search-input" placeholder="Nhập địa chỉ, tòa nhà, ngõ..."
             autocomplete="off" />
           <!-- [FIX #8] Clear button -->
           <button type="button" class="clear-btn" id="clearBtn" onclick="clearInput()" aria-label="Xóa">
@@ -730,7 +785,7 @@
     <!-- Examples — hidden when result is showing -->
     <div class="examples-container visible" id="examplesBlock">
       <div class="example-label">Có thể bạn đang tìm</div>
-      <div class="chips-grid">
+      <div class="chips-grid" id="examplesContainer">
         <button class="chip" onclick="applyExample('S201 Vinhomes Smart City')">🏢 S201 Smart City</button>
         <button class="chip" onclick="applyExample('123 Nguyễn Ngọc Nại')">📍 123 Nguyễn Ngọc Nại</button>
         <button class="chip" onclick="applyExample('66 Vương Thừa Vũ')">🛵 66 Vương Thừa Vũ</button>
@@ -762,6 +817,13 @@
           </svg>
           <span id="copyBtnText">Sao chép địa chỉ</span>
         </button>
+        <button type="button" class="btn-back" onclick="clearInput()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+          Quay lại
+        </button>
       </div>
     </div>
     
@@ -771,6 +833,13 @@
       <div class="suggestions-list" id="suggestionsList">
         <!-- JS rendered items -->
       </div>
+      <button type="button" class="btn-back" onclick="clearInput()" style="width: 100%; margin-top: 20px;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="19" y1="12" x2="5" y2="12"></line>
+          <polyline points="12 19 5 12 12 5"></polyline>
+        </svg>
+        Quay lại tìm kiếm
+      </button>
     </div>
 
     <!-- Error View -->
@@ -813,7 +882,8 @@
       btnCopy: document.getElementById('copyBtn'),
       txtCopy: document.getElementById('copyBtnText'),
       suggestionsView: document.getElementById('suggestionsView'),
-      suggestionsList: document.getElementById('suggestionsList')
+      suggestionsList: document.getElementById('suggestionsList'),
+      chipsContainer: document.getElementById('examplesContainer')
     };
 
     // [FIX #8] Show/hide clear button on input
