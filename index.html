@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Trích xuất Địa chỉ Hà Nội</title>
-  <meta name="description" content="Trích xuất địa chỉ hành chính Hà Nội từ văn bản tự do — hành chính 2 cấp mới (01/07/2025).">
+  <meta name="description"
+    content="Trích xuất địa chỉ hành chính Hà Nội từ văn bản tự do — hành chính 2 cấp mới (01/07/2025).">
   <meta name="theme-color" content="#0b0b13">
   <style>
     *,
@@ -431,7 +432,7 @@
       height: 2px;
       background: var(--gradient-accent);
     }
-    
+
     /* ===== Suggestions Card ===== */
     .suggestions-view {
       display: none;
@@ -444,7 +445,7 @@
       box-shadow: var(--shadow-soft);
       animation: slideUpFade 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
     }
-    
+
     .suggestions-title {
       font-size: 0.95rem;
       color: var(--text-secondary);
@@ -626,7 +627,7 @@
       background: rgba(255, 255, 255, 0.15);
       color: var(--text-main);
     }
-    
+
     .btn-back svg {
       width: 18px;
       height: 18px;
@@ -678,7 +679,7 @@
         height: 32px;
         margin-right: 2px;
       }
-      
+
       .clear-btn svg {
         width: 16px;
         height: 16px;
@@ -688,10 +689,11 @@
       .action-row {
         flex-direction: column;
       }
-      
+
       .btn-back {
         width: 100%;
       }
+
       .container {
         gap: 20px;
         padding-left: 16px;
@@ -752,7 +754,7 @@
       </div>
       <div class="title-area">
         <h1>Hanoi Address</h1>
-        <p class="subtitle">Trích xuất địa chỉ từ văn bản — HC 2 cấp mới</p>
+        <p class="subtitle">Hỗ trợ tìm kiếm địa chỉ hành chính Hà Nội</p>
       </div>
     </header>
 
@@ -792,7 +794,8 @@
     <div class="examples-container visible" id="examplesBlock">
       <div class="example-label">Ví dụ — paste text bất kỳ</div>
       <div class="chips-grid" id="examplesContainer">
-        <button class="chip" onclick="applyExample('Ship c 35 hàng vôi tháp BIDV đt 0912345678')">📦 Ship 35 hàng vôi</button>
+        <button class="chip" onclick="applyExample('Ship c 35 hàng vôi tháp BIDV đt 0912345678')">📦 Ship 35 hàng
+          vôi</button>
         <button class="chip" onclick="applyExample('mai a qua 123 nguyễn ngọc nại nhé')">💬 123 nguyễn ngọc nại</button>
         <button class="chip" onclick="applyExample('Giao hang 15 pho hue ha noi')">🛵 15 phố huế</button>
         <button class="chip" onclick="applyExample('số 8 Lý Thường Kiệt, HK')">📍 8 Lý Thường Kiệt</button>
@@ -824,7 +827,8 @@
           <span id="copyBtnText">Sao chép địa chỉ</span>
         </button>
         <button type="button" class="btn-back" onclick="clearInput()">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
             <line x1="19" y1="12" x2="5" y2="12"></line>
             <polyline points="12 19 5 12 12 5"></polyline>
           </svg>
@@ -832,7 +836,7 @@
         </button>
       </div>
     </div>
-    
+
     <!-- Suggestions View (Disambiguation) -->
     <div class="suggestions-view" id="suggestionsView">
       <div class="suggestions-title">Phát hiện nhiều địa chỉ tương tự.<br>Bạn muốn chọn địa chỉ nào?</div>
@@ -840,7 +844,8 @@
         <!-- JS rendered items -->
       </div>
       <button type="button" class="btn-back" onclick="clearInput()" style="width: 100%; margin-top: 20px;">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round">
           <line x1="19" y1="12" x2="5" y2="12"></line>
           <polyline points="12 19 5 12 12 5"></polyline>
         </svg>
@@ -951,7 +956,7 @@
     // Step 2: Detect street name using fuzzy matching
     function detectStreetName(cleanedInput) {
       const inputNorm = normalizeForSearch(cleanedInput);
-      
+
       let bestMatch = null;
       let bestScore = 0;
       let bestPosition = -1;
@@ -965,7 +970,7 @@
           const before = pos > 0 ? inputNorm[pos - 1] : ' ';
           const after = pos + streetNorm.length < inputNorm.length ? inputNorm[pos + streetNorm.length] : ' ';
           const isWordBound = (before === ' ' || /\d/.test(before)) && (after === ' ' || after === ',' || /\d/.test(after));
-          
+
           if (isWordBound && streetNorm.length > bestScore) {
             bestMatch = entry;
             bestScore = streetNorm.length;
@@ -1019,7 +1024,7 @@
       const inputNorm = normalizeForSearch(cleanedInput);
       const streetNorm = streetMatch.streetName ? normalizeForSearch(streetMatch.streetName) : "";
       const streetPos = inputNorm.indexOf(streetNorm);
-      
+
       // Look for number BEFORE the street name
       if (streetPos > 0) {
         const beforeText = inputNorm.substring(0, streetPos);
@@ -1251,7 +1256,7 @@
               // Multiple matches (partial split) — show options
               for (const opt of newWardOptions) {
                 const wardType = opt.newType === 'Xã' ? 'xã' : 'phường';
-                let addr = houseNumber 
+                let addr = houseNumber
                   ? `${houseNumber} ${streetName}, ${wardType} ${opt.newWard}, thành phố Hà Nội`
                   : `${streetName}, ${wardType} ${opt.newWard}, thành phố Hà Nội`;
                 let hash = dedupKey(addr);
@@ -1340,22 +1345,22 @@
             const oldWard = extractOldWardFromOSM(item);
             const road = item.address?.road || item.address?.pedestrian || '';
             const houseNum = item.address?.house_number || '';
-            
+
             let prefix = '';
             if (houseNum && road) prefix = `${houseNum} ${road}`;
             else if (road) prefix = road;
             else if (item.address?.building && item.address.building !== 'yes') prefix = item.address.building;
-            
+
             const newWardOptions = oldWard ? mapToNewWard(oldWard) : null;
             let addr;
             if (newWardOptions && newWardOptions.length > 0) {
               const best = newWardOptions.find(w => !w.isPartial) || newWardOptions[0];
               const wardType = best.newType === 'Xã' ? 'xã' : 'phường';
-              addr = prefix 
+              addr = prefix
                 ? `${prefix}, ${wardType} ${best.newWard}, thành phố Hà Nội`
                 : `${wardType} ${best.newWard}, thành phố Hà Nội`;
             } else if (oldWard) {
-              addr = prefix 
+              addr = prefix
                 ? `${prefix}, phường ${oldWard}, thành phố Hà Nội`
                 : `phường ${oldWard}, thành phố Hà Nội`;
             } else {
@@ -1384,7 +1389,7 @@
                 if (coords && isInHanoi(coords[1], coords[0])) return true;
                 const props = f.properties || {};
                 return (props.city && normalizeStr(props.city).includes('hanoi')) ||
-                       (props.state && normalizeStr(props.state).includes('hanoi'));
+                  (props.state && normalizeStr(props.state).includes('hanoi'));
               });
 
               for (const f of hanoiFeatures.slice(0, 3)) {
@@ -1392,7 +1397,7 @@
                 const rawWard = props.district || props.locality || props.county || '';
                 const oldWard = rawWard.replace(/^(phường|xã|thị trấn)\s+/i, '').trim();
                 const road = props.street || props.name || '';
-                
+
                 const newWardOptions = oldWard ? mapToNewWard(oldWard) : null;
                 let addr;
                 if (newWardOptions && newWardOptions.length > 0) {
